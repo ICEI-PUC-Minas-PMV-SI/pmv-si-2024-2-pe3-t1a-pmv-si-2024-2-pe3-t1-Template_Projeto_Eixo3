@@ -10,12 +10,12 @@ Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo de
 
 ## Integrantes
 
-* Alice Abreu dos Reis
-* Davih Gonçalves Duque
-* Gabriel dos Reis Nascimento
-* João Luiz Zarate Teixeira 
-* Leonardo Guedes Gomes Junior
-* Omar Petronilio Martins de Abreu
+* [Alice Abreu dos Reis](https://github.com/aliceabreu)
+* [Davih Gonçalves Duque](https://github.com/DevDuque)
+* [Gabriel dos Reis Nascimento](https://github.com/gabrielrnascimento)
+* [João Luiz Zarate Teixeira](https://github.com/joaozarate) 
+* [Leonardo Guedes Gomes Junior](https://github.com/LJ-Leonardo)
+* [Omar Petronílio Martins de Abreu](https://github.com/arondightt)
 
 
 
