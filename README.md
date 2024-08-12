@@ -10,18 +10,19 @@ Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo de
 
 ## Integrantes
 
-* Leonardo Guedes Gomes Junior
-* Gabriel dos Reis Nascimento
-* Aline Abreu dos Reis
-* Omar Petronilio Martins de Abreu
+* Alice Abreu dos Reis
 * Davih Gonçalves Duque
-* João Luiz Zarate Teixeira *
+* Gabriel dos Reis Nascimento
+* João Luiz Zarate Teixeira 
+* Leonardo Guedes Gomes Junior
+* Omar Petronilio Martins de Abreu
+
 
 
 ## Orientador
 
-* Nome completo do professor 
-
+*Fábio Martins de Oliveira
+ 
 # Planejamento
 
 | Etapa         | Atividades |
