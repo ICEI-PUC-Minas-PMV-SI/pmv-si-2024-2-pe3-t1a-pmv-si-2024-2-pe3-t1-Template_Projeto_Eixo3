@@ -15,7 +15,8 @@ Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo de
 * Aline Abreu dos Reis
 * Omar Petronilio Martins de Abreu
 * Davih Gonçalves Duque
-* Nome completo do aluno 6
+* João Luiz Zarate Teixeira *
+
 
 ## Orientador
 
