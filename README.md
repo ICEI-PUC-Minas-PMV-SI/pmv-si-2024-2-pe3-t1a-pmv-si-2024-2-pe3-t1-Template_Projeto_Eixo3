@@ -21,7 +21,7 @@ Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo de
 
 ## Orientador
 
-*Fábio Martins de Oliveira
+* Fábio Martins de Oliveira
  
 # Planejamento
 
