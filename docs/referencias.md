@@ -1,3 +1,15 @@
 # REFERÊNCIAS
 
-Lista de referências utilizadas e citadas no trabalho.
+Referências (livros, artigos, sites, etc) utilizadas no desenvolvimento do trabalho.
+
+[1] - IBGE. **As fundações privadas e associações sem fins lucrativos no Brasil : 2016**. Rio de Janeiro: IBGE, 2019
+
+[2] - pesquisavoluntariado.org.br, **Pesquisa Voluntariado no Brasil 2021**. Disponível em: <https://pesquisavoluntariado.org.br/>. Acesso em: 07 set. 2023.
+
+[3] - g1.globo.com, **Pesquisa revela que o Brasil tem mais de 57 milhões de voluntários ativos**. Disponível em: <https://g1.globo.com/jornal-nacional/noticia/2022/08/27/pesquisa-revela-que-o-brasil-tem-mais-de-57-milhoes-de-voluntarios-ativos.ghtml/>. Acesso em: 07 set. 2023.
+
+[4] - gov.br, **População brasileira chega a 213,3 milhões de habitantes, estima IBGE**. Disponível em: <https://www.gov.br/pt-br/noticias/financas-impostos-e-gestao-publica/2021/08/populacao-brasileira-chega-a-213-3-milhoes-de-habitantes-estima-ibge/>. Acesso em: 07 set. 2023.
+
+[5] - Heller, E. (2021). A Psicologia das Cores: Como as Cores Afetam a Emoção e a Razão. Olhares.
+
+---
