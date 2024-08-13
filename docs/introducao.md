@@ -1,20 +1,47 @@
 # 1. INTRODUÇÃO
 
-Contextualizar a área de pesquisa do trabalho, apresentando conceitos e dados relacionados antes de apresentar a problemática a ser investigada.
+Hoje, a tecnologia desempenha um papel central na nossa sociedade e afeta praticamente todos os aspectos das nossas vidas. À medida que a tecnologia continua a evoluir e a tornar-se mais acessível, as suas aplicações expandiram-se para além dos mundos empresarial e pessoal, alcançando organizações não governamentais (ONGs) e instituições filantrópicas. A utilização da tecnologia para apoiar o trabalho das ONGs tornou-se uma tendência crescente e transformadora, permitindo a estas organizações alcançar um impacto maior e mais eficaz nas suas missões.
+
+Com isso, nota-se a necessidade de unir entusiastas da área de Tecnologia da Informação, sejam estudantes ou profissionais com habilidades mais avançadas, com essas entidades para maximizar seu impacto social e contribuir com o aprimoramento dos profissionais de tecnologia.
+
+Portanto, este projeto surgiu da necessidade de atender às múltiplas demandas das ONGs, utilizando os conhecimentos e competências dos profissionais de TI para melhorar os processos e ter um impacto positivo nas suas atividades. O seu objetivo fundamental é encurtar a distância entre ONGs e profissionais de TI dispostos a contribuir com as suas competências para resolver os desafios específicos enfrentados por estas organizações. Ao mesmo tempo, proporciona aos profissionais de tecnologia uma valiosa oportunidade de aplicar os seus conhecimentos num contexto de impacto social, contribuir para causas importantes e potenciar o desenvolvimento pessoal e profissional dos envolvidos.
 
 ## 1.1. Problema
 
-Nesse momento você deve apresentar o problema que a sua aplicação deve resolver. No entanto, não é a hora de comentar sobre a aplicação. 
-Descreva também o contexto em que essa aplicação será usada, se houver: empresa, tecnologias, etc. Novamente, descreva apenas o que de fato existir, pois ainda não é a hora de apresentar requisitos detalhados ou projetos.
+De que forma é possível conectar profissionais de TI e ONGs para fortalecer seu impacto social?
 
 ## 1.2. Objetivos do trabalho
 
-Aqui você deve descrever os objetivos do trabalho indicando que o objetivo geral é desenvolver um software para solucionar o problema apresentado acima. O objetivo geral deve resumir e apresentar a ideia central de um trabalho, descrevendo também a sua finalidade. Os objetivos específicos darão uma maior delimitação ao tema, além de detalhar os processos necessários para a realização do trabalho.
+### Objetivo geral
+
+Conectar ONGs que demandam trabalhos de tecnologia da informação com voluntários disponíveis e com conhecimento técnico.
+
+### Objetivos específicos
+
+- Reduzir significativamente o tempo necessário para resolver problemas tecnológicos nas ONGs, garantindo que elas possam focar mais em suas missões essenciais ao invés de lidar com obstáculos tecnológicos;
+- Atender as necessidades das ONGs na área de Tecnologia da Informação (TI);
+- Destacar como a colaboração entre voluntários de TI e ONGs pode resultar em um impacto social positivo, resolvendo problemas tecnológicos que poderiam atrasar ou até impedir o progresso das atividades da ONG;
+- Definir um meio de conexão prático para quem quer se voluntariar às ONGs que precisam de voluntários;
+- Conscientizar as pessoas sobre como seu conhecimento em TI pode ser usado para melhorar a sociedade, incentivando mais pessoas a se envolverem como voluntários;
+- Permitir que os voluntários escolham projetos que estejam alinhados com suas habilidades e paixões, tornando o envolvimento mais significativo e gratificante;
+- Oferecer oportunidades de aprendizado e desenvolvimento para voluntários, permitindo que eles aprimorem suas habilidades técnicas enquanto contribuem para causas sociais;
+- Incentivar a colaboração entre voluntários de TI, promovendo um ambiente de trabalho em equipe que aproveite ao máximo a diversidade de habilidades e experiências;
+- Facilitar assistência tecnológica às ONGs que podem não ter recursos para contratar profissionais de TI.
 
 ## 1.3. Justificativa
 
-Descreva a importância ou a motivação para trabalhar com esta aplicação que você escolheu. Indique as razões pelas quais você escolheu seus objetivos específicos ou as razões para aprofundar em certos aspectos do software.
+Este projeto surge da necessidade de atender às variadas demandas das Organizações Não Governamentais (ONGs) no Brasil, um país que abriga um cenário extremamente diversificado de organizações voltadas para causas sociais, culturais, ambientais e diversas outras áreas. Segundo o Instituto Brasileiro de Geografia e Estatística (IBGE), em 2016, havia aproximadamente 237 mil ONGs em todo o território brasileiro[[1]](../docs/references.md).
+
+Outro dado relevante que reforça a importância deste projeto é o alto engajamento cívico no Brasil. De acordo com o G1, o país contava com aproximadamente 57 milhões de voluntários ativos no ano de 2021[[3]](../docs/references.md). Esses voluntários desempenham um papel fundamental no apoio às ONGs e na realização de ações voltadas para o bem comum, demonstrando o potencial de mobilização e engajamento da sociedade civil em iniciativas de impacto social.
+
+Entretanto, é importante destacar que entre 2011 e 2021 houve uma diminuição significativa na participação de voluntários mais jovens, com idades entre 16 e 29 anos[[2]](../docs/references.md). Esse declínio é uma preocupação relevante, uma vez que a juventude representa uma fonte valiosa de energia, criatividade e conhecimento que pode ser aproveitada para impulsionar ações sociais. Para enfrentar esse desafio, é fundamental incentivar a participação dos jovens e mostrar como eles podem contribuir com a sociedade de forma significativa.
+
+A idade média dos voluntários em 2021 era de 43 anos[[2]](../docs/references.md), refletindo a necessidade de aumentar a participação das gerações mais jovens para o voluntariado. Através deste projeto, pretendemos criar oportunidades atraentes e acessíveis para os jovens se envolverem, doando seu tempo e conhecimento em áreas como tecnologia e informática. Ao fornecer uma plataforma onde seja prático identificar projetos que o voluntário tenha mais afinidade, podemos aumentar as chances de voluntariado e revitalizar o engajamento nesse grupo demográfico e, ao mesmo tempo, fortalecer a capacidade das ONGs de abordar desafios tecnológicos.
+
+Um ponto importante é que, entre os voluntários em 2021, apenas 5% das atividades estavam relacionadas à tecnologia, incluindo serviços administrativos que envolvem informática[[2]](../docs/references.md). Isso indica um grande potencial para expandir e diversificar o papel da tecnologia nas ações voluntárias. Ao promover projetos que envolvam tecnologia de maneira mais abrangente, também podemos atrair a participação da juventude, que muitas vezes possui habilidades técnicas valiosas.
+
+Portanto, este projeto não apenas visa atender às necessidades das ONGs no Brasil, mas também tem como objetivo criar um ambiente inclusivo e motivador para pessoas com desejo de ajudar, incentivando-os a participar ativamente e doar seu tempo e conhecimento para causas sociais. Ao fazê-lo, acreditamos que podemos alinhar os valores de solidariedade, desenvolvimento sustentável e inovação tecnológica, contribuindo para um futuro mais promissor e engajado.
 
 ## 1.4. Público alvo
 
-Descreva quem serão as pessoas que usarão a sua aplicação indicando os diferentes perfis. O objetivo aqui não é definir quem serão os clientes ou quais serão os papéis dos usuários na aplicação. A ideia é, dentro do possível, conhecer um pouco mais sobre o perfil dos usuários: conhecimentos prévios, relação com a tecnologia, relações hierárquicas, etc.
+Profissionais e estudantes da área de tecnologia que queiram voluntariar, aplicando e desenvolvendo seus conhecimentos e habilidades, bem como ONGs que buscam esse serviço, propondo suas demandas.
