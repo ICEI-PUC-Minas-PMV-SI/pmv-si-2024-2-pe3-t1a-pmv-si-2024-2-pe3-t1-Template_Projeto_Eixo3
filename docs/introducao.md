@@ -4,8 +4,29 @@ Contextualizar a área de pesquisa do trabalho, apresentando conceitos e dados r
 
 ## 1.1. Problema
 
-Nesse momento você deve apresentar o problema que a sua aplicação deve resolver. No entanto, não é a hora de comentar sobre a aplicação.
-Descreva também o contexto em que essa aplicação será usada, se houver: empresa, tecnologias, etc. Novamente, descreva apenas o que de fato existir, pois ainda não é a hora de apresentar requisitos detalhados ou projetos.
+Considerando que o desenvolvimento deste projeto visa atender dois principais públicos-alvo, os desafios podem ser divididos da seguinte maneira:
+
+### Desafios do Ponto de Vista das ONGs
+
+As Organizações Não Governamentais (ONGs) enfrentam diversos desafios que limitam seu impacto social:
+
+- **Falta de recursos técnicos:** Muitas ONGs não dispõem de profissionais capacitados internamente para implementar e manter sistemas tecnológicos eficazes.
+
+- **Acesso limitado a profissionais qualificados:** A contratação de especialistas em TI é frequentemente inviável para ONGs devido a restrições financeiras, além da dificuldade em encontrar profissionais dispostos a colaborar.
+
+- **Desconexão entre oferta e demanda:** Mesmo com profissionais dispostos a ajudar, as ONGs muitas vezes não sabem como conectá-los às suas necessidades, criando uma lacuna entre a demanda por suporte técnico e a disponibilidade de talentos.
+
+- **Necessidade de soluções personalizadas:** As ONGs enfrentam desafios específicos que exigem soluções tecnológicas sob medida, o que é difícil de alcançar sem o apoio técnico adequado.
+
+### Desafios do Ponto de Vista dos Profissionais de TI
+
+Por outro lado, os profissionais de TI, sejam eles iniciantes ou experientes, também enfrentam desafios:
+
+- **Falta de oportunidades de qualificação prática:** Estudantes e profissionais em início de carreira lutam para encontrar oportunidades que permitam aplicar seus conhecimentos em situações reais, essenciais para o desenvolvimento de suas habilidades.
+
+- **Sentimento de falta de propósito:** Profissionais mais experientes, apesar de qualificados, podem sentir que seu trabalho cotidiano não gera o impacto social desejado, levando a uma sensação de insatisfação e desmotivação.
+
+- **Desejo de contribuir para causas sociais:** Muitos profissionais de TI querem utilizar suas habilidades em projetos que façam a diferença, mas encontram dificuldades para se conectar com ONGs que possam se beneficiar de seu conhecimento.
 
 ## 1.2. Objetivos do trabalho
 
@@ -17,15 +38,15 @@ Descreva a importância ou a motivação para trabalhar com esta aplicação que
 
 ## 1.4. Público alvo
 
-### Profissionais de Tecnologia da Informação (TI)
+### Profissionais de Tecnologia da Informação (T.I)
 
 #### Conhecimentos Prévios:
 
-- **Iniciantes:** Profissionais com conhecimentos básicos em tecnologia, que estão começando sua jornada no campo de TI.
+- **Iniciantes:** Profissionais com conhecimentos básicos em tecnologia, que estão começando sua jornada no campo de T.I.
 
 - **Intermediários:** Profissionais com experiência prática e conhecimento em tecnologias específicas.
 
-- **Seniores:** Especialistas com vasta experiência e conhecimento avançado em diversas áreas de TI.
+- **Seniores:** Especialistas com vasta experiência e conhecimento avançado em diversas áreas de T.I.
 
 #### Relação com a Tecnologia:
 
