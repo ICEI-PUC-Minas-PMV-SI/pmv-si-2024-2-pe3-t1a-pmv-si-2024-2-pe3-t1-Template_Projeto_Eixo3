@@ -16,54 +16,30 @@ Aqui você deve descrever os objetivos do trabalho indicando que o objetivo gera
 
 Descreva a importância ou a motivação para trabalhar com esta aplicação que você escolheu. Indique as razões pelas quais você escolheu seus objetivos específicos ou as razões para aprofundar em certos aspectos do software.
 
-## 1.4. Público alvo
+## 1.4. Público-Alvo
 
-### Profissionais de Tecnologia da Informação (T.I)
+O projeto tem como principais públicos-alvo os profissionais de Tecnologia da Informação (TI) e as Organizações Não Governamentais (ONGs). Cada um desses grupos enfrenta desafios específicos e tem necessidades distintas que o projeto visa atender.
 
-#### Conhecimentos Prévios:
+### Profissionais de Tecnologia da Informação (TI)
 
-- **Iniciantes:** Profissionais com conhecimentos básicos em tecnologia, que estão começando sua jornada no campo de T.I.
+Os profissionais de TI variam amplamente em níveis de experiência, desde iniciantes com conhecimentos básicos em tecnologia até especialistas seniores com profundo conhecimento e vasta experiência. Cada nível tem suas características distintas:
 
-- **Intermediários:** Profissionais com experiência prática e conhecimento em tecnologias específicas.
+- **Iniciantes:** Estão começando sua jornada na área, adquirindo conhecimentos fundamentais e habilidades iniciais.
 
-- **Seniores:** Especialistas com vasta experiência e conhecimento avançado em diversas áreas de T.I.
+- **Intermediários:** Possuem experiência prática em tecnologias específicas e já aplicaram seus conhecimentos em projetos reais.
 
-#### Relação com a Tecnologia:
+- **Seniores:** São especialistas com domínio abrangente em várias áreas de TI, frequentemente envolvidos em projetos complexos e desafiadores.
 
-- **Prática Diária:** Profissionais que aplicam suas habilidades tecnológicas regularmente em seus trabalhos ou projetos pessoais.
-
-- **Formação Acadêmica:** Formações diversas em vários âmbitos da tecnologia.
-
-#### Expectativas:
-
-- **Desenvolvimento de Habilidades:** Oportunidades para aprimorar e expandir suas competências técnicas.
-
-- **Impacto Social:** Contribuir para projetos significativos e causas importantes.
-
-- **Desafios:** Envolvimento em projetos desafiadores e de alto impacto que aproveitam seus conhecimentos.
+Esses profissionais buscam aplicar suas habilidades tecnológicas em diversos contextos, seja em trabalhos formais ou projetos pessoais. Eles buscam constantemente oportunidades para aprimorar suas competências técnicas, contribuir para projetos significativos e enfrentar desafios que promovam seu crescimento.
 
 ### Organizações Não Governamentais (ONGs)
 
-#### Conhecimentos Prévios:
+As ONGs apresentam uma gama diversificada de familiaridade com a tecnologia:
 
-- **Básico:** Organizações com conhecimento limitado em tecnologia e que necessitam de suporte essencial.
+- **Iniciais:** Algumas ONGs têm conhecimento limitado e necessitam de suporte essencial para começar a utilizar a tecnologia.
 
-- **Intermediário:** ONGs que utilizam tecnologia de forma moderada e precisam de suporte para otimização.
+- **Moderadas:** Outras utilizam a tecnologia de forma moderada e buscam maneiras de otimizar suas operações.
 
-- **Avançado:** Entidades com um bom entendimento técnico, buscando soluções específicas e aprimoramento de sistemas.
+- **Avançadas:** Algumas ONGs possuem um bom entendimento técnico e procuram soluções específicas para melhorar e aprimorar seus sistemas existentes.
 
-#### Relação com a Tecnologia:
-
-- **Utilização Prática:** Aplicação de tecnologias para melhorar operações e atingir objetivos.
-
-- **Desafios Tecnológicos:** Enfrentamento de limitações de recursos e conhecimento técnico.
-
-- **Necessidade de Suporte:** Busca de colaboração para suprir lacunas tecnológicas e otimizar processos.
-
-#### Expectativas:
-
-- **Suporte Técnico:** Receber ajuda especializada para resolver problemas e implementar soluções tecnológicas.
-
-- **Maximização de Recursos:** Melhorar a eficiência e a eficácia das operações por meio de suporte tecnológico.
-
-- **Parcerias Significativas:** Colaborar com profissionais de TI que compreendam suas necessidades e desafios.
+Essas organizações aplicam a tecnologia para melhorar suas operações e alcançar seus objetivos, mas frequentemente enfrentam desafios devido a limitações de recursos e conhecimento técnico. Elas buscam suporte especializado para resolver problemas, implementar soluções eficazes e otimizar processos. O objetivo é estabelecer parcerias com profissionais de TI que compreendam suas necessidades e desafios, maximizando assim a eficiência de seus recursos.
