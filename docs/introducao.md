@@ -4,9 +4,9 @@ Contextualizar a área de pesquisa do trabalho, apresentando conceitos e dados r
 
 ## 1.1. Problema
 
-- **As Organizações Não Governamentais (ONGs)** enfrentam desafios significativos que limitam seu impacto social. A escassez de recursos técnicos e a falta de voluntários capacitados dificultam a implementação e manutenção de sistemas tecnológicos eficazes. Mesmo quando há profissionais dispostos a colaborar, muitas ONGs têm dificuldade em conectar essas habilidades às suas necessidades específicas, criando uma lacuna que impede a criação de soluções personalizadas e o enfrentamento eficaz dos seus desafios.
+- **As Organizações Não Governamentais (ONGs)** enfrentam desafios significativos que limitam seu impacto social. A escassez de recursos técnicos e a falta de voluntários com conhecimento especializado dificultam a implementação e manutenção de sistemas tecnológicos eficazes. Mesmo quando há profissionais dispostos a colaborar, muitas ONGs têm dificuldade em conectar essas habilidades às suas necessidades específicas, criando uma lacuna que impede a criação de soluções personalizadas e o enfrentamento eficaz dos seus desafios.
 
-- **Por outro lado, profissionais de TI**, tanto iniciantes quanto experientes, também lidam com obstáculos. Estudantes e recém-formados frequentemente encontram dificuldades para aplicar seus conhecimentos em contextos práticos, fundamentais para o desenvolvimento profissional. Já os profissionais mais experientes podem se sentir insatisfeitos ao perceber que seu trabalho cotidiano não gera o impacto social que desejam. Muitos têm a vontade de contribuir para causas sociais, mas encontram barreiras ao tentar se conectar com ONGs que poderiam se beneficiar de suas competências.
+- **Por outro lado, profissionais de TI**, tanto iniciantes quanto experientes, também enfrentam obstáculos. Estudantes e recém-formados frequentemente encontram dificuldades para aplicar seus conhecimentos em contextos práticos, cruciais para o desenvolvimento profissional. Já os profissionais mais experientes podem se sentir insatisfeitos ao perceber que seu trabalho cotidiano não gera o impacto social que desejam. Muitos têm a vontade de contribuir para causas sociais, mas encontram barreiras ao tentar se conectar com ONGs que poderiam se beneficiar de suas competências.
 
 ## 1.2. Objetivos do trabalho
 
