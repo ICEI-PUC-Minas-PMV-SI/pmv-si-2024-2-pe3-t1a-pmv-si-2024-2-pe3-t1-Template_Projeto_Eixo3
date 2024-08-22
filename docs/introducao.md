@@ -4,9 +4,9 @@ Contextualizar a área de pesquisa do trabalho, apresentando conceitos e dados r
 
 ## 1.1. Problema
 
-- **As Organizações Não Governamentais (ONGs)** enfrentam desafios significativos que limitam seu impacto social. A escassez de recursos técnicos e a falta de voluntários com conhecimento especializado dificultam a implementação e manutenção de sistemas tecnológicos eficazes. Mesmo quando há profissionais dispostos a colaborar, muitas ONGs têm dificuldade em conectar essas habilidades às suas necessidades específicas, criando uma lacuna que impede a criação de soluções personalizadas e o enfrentamento eficaz dos seus desafios.
+Apesar do potencial transformador da tecnologia, muitas Organizações Não Governamentais (ONGs) enfrentam desafios significativos que limitam seu impacto social. A escassez de recursos técnicos e a dificuldade em acessar soluções tecnológicas eficazes frequentemente impedem essas organizações de otimizar seus processos e maximizar seus resultados. Embora existam inúmeros entusiastas e profissionais de tecnologia, desde estudantes até especialistas, dispostos a contribuir para causas sociais, há uma desconexão entre essas habilidades disponíveis e as necessidades específicas das ONGs. Essa lacuna dificulta o desenvolvimento de soluções personalizadas que poderiam potencializar o trabalho dessas organizações.
 
-- **Por outro lado, profissionais de TI**, tanto iniciantes quanto experientes, também enfrentam obstáculos. Estudantes e recém-formados frequentemente encontram dificuldades para aplicar seus conhecimentos em contextos práticos, cruciais para o desenvolvimento profissional. Já os profissionais mais experientes podem se sentir insatisfeitos ao perceber que seu trabalho cotidiano não gera o impacto social que desejam. Muitos têm a vontade de contribuir para causas sociais, mas encontram barreiras ao tentar se conectar com ONGs que poderiam se beneficiar de suas competências.
+Ao mesmo tempo, aqueles que possuem conhecimento em tecnologia que desejam aplicar suas habilidades em projetos de impacto social, frequentemente encontram obstáculos ao tentar identificar ONGs que necessitam de seu suporte. Essa desconexão resulta em oportunidades perdidas tanto para as ONGs quanto para os profissionais de T.I, limitando o impacto positivo que poderia ser alcançado através de uma colaboração mais eficaz e direcionada.
 
 ## 1.2. Objetivos do trabalho
 
@@ -18,28 +18,4 @@ Descreva a importância ou a motivação para trabalhar com esta aplicação que
 
 ## 1.4. Público-Alvo
 
-O projeto tem como principais públicos-alvo os profissionais de Tecnologia da Informação (TI) e as Organizações Não Governamentais (ONGs). Cada um desses grupos enfrenta desafios específicos e tem necessidades distintas que o projeto visa atender.
-
-### Profissionais de Tecnologia da Informação (TI)
-
-Os profissionais de TI variam amplamente em níveis de experiência, desde iniciantes com conhecimentos básicos em tecnologia até especialistas seniores com profundo conhecimento e vasta experiência. Cada nível tem suas características distintas:
-
-- **Iniciantes:** Estão começando sua jornada na área, adquirindo conhecimentos fundamentais e habilidades iniciais.
-
-- **Intermediários:** Possuem experiência prática em tecnologias específicas e já aplicaram seus conhecimentos em projetos reais.
-
-- **Seniores:** São especialistas com domínio abrangente em várias áreas de TI, frequentemente envolvidos em projetos complexos e desafiadores.
-
-Esses profissionais buscam aplicar suas habilidades tecnológicas em diversos contextos, seja em trabalhos formais ou projetos pessoais. Eles buscam constantemente oportunidades para aprimorar suas competências técnicas, contribuir para projetos significativos e enfrentar desafios que promovam seu crescimento.
-
-### Organizações Não Governamentais (ONGs)
-
-As ONGs apresentam uma gama diversificada de familiaridade com a tecnologia:
-
-- **Iniciais:** Algumas ONGs têm conhecimento limitado e necessitam de suporte essencial para começar a utilizar a tecnologia.
-
-- **Moderadas:** Outras utilizam a tecnologia de forma moderada e buscam maneiras de otimizar suas operações.
-
-- **Avançadas:** Algumas ONGs possuem um bom entendimento técnico e procuram soluções específicas para melhorar e aprimorar seus sistemas existentes.
-
-Essas organizações aplicam a tecnologia para melhorar suas operações e alcançar seus objetivos, mas frequentemente enfrentam desafios devido a limitações de recursos e conhecimento técnico. Elas buscam suporte especializado para resolver problemas, implementar soluções eficazes e otimizar processos. O objetivo é estabelecer parcerias com profissionais de TI que compreendam suas necessidades e desafios, maximizando assim a eficiência de seus recursos.
+Este projeto visa conectar entusiastas e profissionais de Tecnologia da Informação (T.I) com Organizações Não Governamentais (ONGs), criando uma rede colaborativa onde ambos os grupos possam se beneficiar mutuamente. Este projeto propõe aproximar esses públicos, permitindo que as ONGs acessem o suporte necessário para fortalecer suas operações e atingir seus objetivos, enquanto os entusiastas de T.I têm a oportunidade de contribuir para causas sociais, se desenvolvendo tanto pessoal quanto profissionalmente.
