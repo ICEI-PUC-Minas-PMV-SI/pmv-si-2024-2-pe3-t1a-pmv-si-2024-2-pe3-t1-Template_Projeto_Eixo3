@@ -14,7 +14,7 @@ De que forma é possível conectar profissionais de TI e ONGs para fortalecer se
 
 ### Objetivo geral
 
-Conectar ONGs que demandam trabalhos de tecnologia da informação com voluntários disponíveis e com conhecimento técnico.
+Desenvolvimento de um sistema que realize a conexão entre ONGs, que realizam atividades com a tecnologia da informação e de voluntários que possuem o conhecimento técnico.
 
 ### Objetivos específicos
 
