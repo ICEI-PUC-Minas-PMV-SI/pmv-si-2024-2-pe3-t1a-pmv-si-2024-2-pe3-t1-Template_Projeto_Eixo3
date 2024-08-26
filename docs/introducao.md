@@ -8,7 +8,9 @@ Este projeto, portanto, surge da necessidade de atender às múltiplas demandas 
 
 ## 1.1. Problema
 
-De que forma é possível conectar profissionais de TI e ONGs para fortalecer seu impacto social?
+Apesar do potencial transformador da tecnologia, muitas ONGs enfrentam desafios significativos que limitam seu impacto social. A escassez de recursos técnicos e a dificuldade em acessar soluções tecnológicas eficazes frequentemente impedem essas organizações de otimizar seus processos e maximizar seus resultados. Embora existam inúmeros entusiastas e profissionais de tecnologia, desde estudantes até especialistas, dispostos a contribuir para causas sociais, há uma desconexão entre essas habilidades disponíveis e as necessidades específicas das ONGs. Essa lacuna dificulta o desenvolvimento de soluções personalizadas que poderiam potencializar o trabalho dessas organizações.
+
+Ao mesmo tempo, aqueles que possuem conhecimento em tecnologia que desejam aplicar suas habilidades em projetos de impacto social, frequentemente encontram obstáculos ao tentar identificar ONGs que necessitam de seu suporte. Essa desconexão resulta em oportunidades perdidas tanto para as ONGs quanto para os profissionais de TI, limitando o impacto positivo que poderia ser alcançado através de uma colaboração mais eficaz e direcionada.
 
 ## 1.2. Objetivos do trabalho
 
@@ -42,6 +44,6 @@ Um ponto importante é que, entre os voluntários em 2021, apenas 5% das ativida
 
 Portanto, este projeto não apenas visa atender às necessidades das ONGs no Brasil, mas também tem como objetivo criar um ambiente inclusivo e motivador para pessoas com desejo de ajudar, incentivando-os a participar ativamente e doar seu tempo e conhecimento para causas sociais. Ao fazê-lo, acreditamos que podemos alinhar os valores de solidariedade, desenvolvimento sustentável e inovação tecnológica, contribuindo para um futuro mais promissor e engajado.
 
-## 1.4. Público alvo
+## 1.4. Público-Alvo
 
-Profissionais e estudantes da área de tecnologia que queiram voluntariar, aplicando e desenvolvendo seus conhecimentos e habilidades, bem como ONGs que buscam esse serviço, propondo suas demandas.
+Este projeto visa conectar entusiastas e profissionais de TI com ONGs, criando uma rede colaborativa onde ambos os grupos possam se beneficiar mutuamente. Este projeto propõe aproximar esses públicos, permitindo que as ONGs acessem o suporte necessário para fortalecer suas operações e atingir seus objetivos, enquanto os entusiastas de TI têm a oportunidade de contribuir para causas sociais, se desenvolvendo tanto pessoal quanto profissionalmente.
