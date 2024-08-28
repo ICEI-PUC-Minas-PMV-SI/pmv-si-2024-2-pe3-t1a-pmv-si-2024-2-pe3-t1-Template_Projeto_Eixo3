@@ -1,10 +1,5 @@
 # 2. ESTADO DA ARTE
-O estado da arte é um mapeamento de toda a produção acadêmica sobre um assunto específico, aqui especificamente sobre o tema escolhido para o seu trabalho. A ideia consiste em reunir as conclusões que outras pesquisas científicas chegaram sobre um determinado assunto. Neste momento você deverá buscar respostas para as seguintes perguntas:
 
-1.	Quais pesquisas estão sendo desenvolvidas sobre esse tema?
-2.	Quem está pesquisando e onde?
-3.	O que as atuais pesquisas científicas concluíram sobre o tema? 
-4.	Quais as divergências dos pesquisadores sobre o assunto? 
-5.	Quais aspectos carecem de maior abordagem?
+O departamento DI4A da Universidade de Udine, na Itália, aborda¹ a urgente necessidade de mitigar os conflitos entre meios urbanos e a vida selvagem, promovendo uma coexistência sustentável. Para isso, o projeto InfoFaunaFVG foi desenvolvido como um Aplicativo Web Progressivo (PWA) para dispositivos móveis, utilizando frameworks open source. Este aplicativo tem como foco o monitoramento e a gestão da fauna silvestre no noroeste da Itália, permitindo a construção de uma base de dados alimentada por voluntários. Essa base de dados é destinada principalmente ao uso por autoridades competentes e visa aumentar a eficácia e a precisão das ferramentas de gestão da vida silvestre, podendo ser escalada para referência em nível nacional.
 
-É importante referenciar estas pesquisas, fazendo as devidas citações de acordo com as normas da ABNT e colocando as referências completas ao final do trabalho.
+Em 2023, O instituto "Sri Lanka Institute of information technology" enfatiza² a importância da vida terrestre e de criar formas eficientes de uso sustentável dos recursos naturais ao entender as conexões das formas de vidas e ecossistemas com o meio ambiente. Afirmando que há poucos sistemas informativos sobre o assunto, o projeto propõe informar sobre problemas como poluição, práticas invasivas e crimes ambientais ao criar uma ferramenta web para uso de criadores de conteúdo e pessoas envolvidas em projetos ambientais. Ela foi construída usando-se boas práticas de programação aplicadas à stack usando a stack MERN (acrônimo para MongoDB, Express, React e Node), resultando em um sistema eficiente, simples e atrativo em que os usuários podem compartilhar seus pensamentos e experiências, vender produtos ecológicos e atrair pessoas para projetos ambientais.
