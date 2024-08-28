@@ -19,7 +19,9 @@ O principal objetivo deste trabalho é desenvolver um software que forneça info
 
 ## 1.3. Justificativa
 
-Descreva a importância ou a motivação para trabalhar com esta aplicação que você escolheu. Indique as razões pelas quais você escolheu seus objetivos específicos ou as razões para aprofundar em certos aspectos do software.
+A escolha de abordar o tema não é apenas relevante, mas também urgente. É necessário antecipar e responder em escala global a estas ameaças ambientas que estão acontecendo e se acentuando, cada ação e decisão tomada hoje, trará consequências e moldará o futuro do planeta para as próximas gerações. No cenário atual, onde a biodiversidade do nosso planeta está enfrentando ameaças sem precedentes, esse é um tema relevante, que apesar de ser discutido a algum tempo, ainda pode ser trabalhado e destacado de maneiras diferentes, com foco em disponibilizar informações pertinentes, gerando conscientização e engajamento. Assim é um assunto importante a ser mantido em pauta e incentivado, já que a crise ambiental é uma questão constante e global. 
+
+A criação de um site com foco nesse segmento é importante para abordar uma crise que afeta diretamente a biodiversidade do nosso planeta. Existem várias razões pelas quais essa iniciativa é relevante, como:  a Preservação da Biodiversidade; Conscientização Pública; Alertar sobre Ameaças Humanas; Mobilização para Ações; Repensar as atividades humanas e a relação com o ambiente, Engajamento das Novas gerações; Apoio a Iniciativas de Conservação; Contribuição para a Ciência; entre outras relacionadas a esse meio. Em suma, um site de conscientização sobre animais em extinção e biomas ameaçados que desempenha um papel crucial na educação, mobilização e ação para enfrentar a crise ambiental que afeta nosso planeta, além de ser uma ferramenta poderosa para unir esforços em prol da preservação da biodiversidade e do equilíbrio dos ecossistemas, garantindo um futuro sustentável para as gerações presentes e futuras.
 
 ## 1.4. Público alvo
 
