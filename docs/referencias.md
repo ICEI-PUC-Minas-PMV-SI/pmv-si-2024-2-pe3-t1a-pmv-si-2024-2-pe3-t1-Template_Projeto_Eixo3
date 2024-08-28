@@ -1,15 +1,17 @@
 # REFERÊNCIAS
 
-Referências (livros, artigos, sites, etc) utilizadas no desenvolvimento do trabalho.
+[1] BAHIA, Gabriel Torres. **Solidarize: aplicação web para busca de organizações não-governamentais**. PUC Goiás, 2023. Disponível em: <https://repositorio.pucgoias.edu.br/jspui/handle/123456789/6891>. Acesso em: 27 de agosto de 2024.
 
-[1] - IBGE. **As fundações privadas e associações sem fins lucrativos no Brasil : 2016**. Rio de Janeiro: IBGE, 2019
+[2] DIAS, Reinaldo. **Planejamento do turismo no Brasil**. São Paulo: Atlas, 2003.
 
-[2] - pesquisavoluntariado.org.br, **Pesquisa Voluntariado no Brasil 2021**. Disponível em: <https://pesquisavoluntariado.org.br/>. Acesso em: 07 set. 2023.
+[3] DIAZ, Laura Ospina. **Crowd4ONG: ONGs y Voluntarios en Línea**. Assessor: Javier Piraquive. 2021. Universidad de La Sabana, Bogotá, 2021. Disponível em: <http://hdl.handle.net/10818/51489>. Acesso em: 27 de agosto de 2024.
 
-[3] - g1.globo.com, **Pesquisa revela que o Brasil tem mais de 57 milhões de voluntários ativos**. Disponível em: <https://g1.globo.com/jornal-nacional/noticia/2022/08/27/pesquisa-revela-que-o-brasil-tem-mais-de-57-milhoes-de-voluntarios-ativos.ghtml/>. Acesso em: 07 set. 2023.
+[4] IBGE. **As fundações privadas e associações sem fins lucrativos no Brasil: 2016**. Rio de Janeiro: IBGE, 2019.
 
-[4] - gov.br, **População brasileira chega a 213,3 milhões de habitantes, estima IBGE**. Disponível em: <https://www.gov.br/pt-br/noticias/financas-impostos-e-gestao-publica/2021/08/populacao-brasileira-chega-a-213-3-milhoes-de-habitantes-estima-ibge/>. Acesso em: 07 set. 2023.
+[5] LEÃO, Débora Seibert de. **Bem coletivo: proposta de interface para ferramenta digital de busca e oferta de trabalho voluntário com foco no design**. Univates, 2017. Disponível em: <http://hdl.handle.net/10737/1776>. Acesso em: 27 de agosto de 2024.
 
-[5] - Heller, E. (2021). A Psicologia das Cores: Como as Cores Afetam a Emoção e a Razão. Olhares.
+[6] MISHRA, Sandeep; TIWARI, Akanksha; TRIVEDI, Ved. **Volunteer and NGO Matching Platform**. Mumbai, India: International Research Journal on Advanced Engineering Hub (IRJAEH), 2024. Disponível em: <https://doi.org/10.47392/IRJAEH.2024.0104>. Acesso em: 27 de agosto de 2024.
 
----
+[7] pesquisavoluntariado.org.br. **Pesquisa Voluntariado no Brasil 2021**. Disponível em: <https://pesquisavoluntariado.org.br/>. Acesso em: 27 de agosto de 2024.
+
+[8] g1.globo.com. **Pesquisa revela que o Brasil tem mais de 57 milhões de voluntários ativos**. Disponível em: <https://g1.globo.com/jornal-nacional/noticia/2022/08/27/pesquisa-revela-que-o-brasil-tem-mais-de-57-milhoes-de-voluntarios-ativos.ghtml/>. Acesso em: 27 de agosto de 2024.
