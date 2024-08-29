@@ -5,3 +5,5 @@
 2 - W.A.I.A Wickramasinghe, K. M.P.M Karunarathna, V.O.V Rajapakse, et al. Designing and Developing a Web Application Using The MERN Stack to Support Biodiversity Conservation and Sustainable Use of Natural Resources. Authorea. May 01, 2023.
 
 3 - Supriadi, I., & Prihatmanto, A. S. (2015). Design e implementação de um portal unificado indonésio utilizando abordagem de crowdsourcing para apoiar a conservação e monitoramento de espécies em perigo. In 4th International Conference on Interactive Digital Media (ICIDM), Bandung, Indonésia. IEEE.
+
+4 - Obeidavi, Z., Rangzan, K., Kabolizade, M., & Mirzaei, R. (2019). A web-based GIS system for wildlife species: a case study from Khouzestan Province, Iran. Environmental Science and Pollution Research. https://sci-hub.se/10.1007/s11356-019-04616-1
