@@ -16,11 +16,11 @@ Ao mesmo tempo, aqueles que possuem conhecimento em tecnologia que desejam aplic
 
 ### Objetivo geral
 
-Conectar ONGs que demandam trabalhos de tecnologia da informação com voluntários disponíveis e com conhecimento técnico.
+Desenvolver um sistema web que facilite a conexão entre ONGs e voluntários, permitindo que as organizações descrevam seus desafios de maneira clara, possibilitando que os voluntários encontrem oportunidades alinhadas ao seu perfil e se ofereçam para contribuir com as causas que mais lhes interessam.
 
 ### Objetivos específicos
 
-- Reduzir significativamente o tempo necessário para resolver problemas tecnológicos nas ONGs, garantindo que elas possam focar mais em suas missões essenciais ao invés de lidar com obstáculos tecnológicos;
+- Reduzir o tempo necessário para resolver problemas tecnológicos nas ONGs, garantindo que elas possam focar mais em suas missões essenciais ao invés de lidar com obstáculos tecnológicos;
 - Atender as necessidades das ONGs na área de Tecnologia da Informação (TI);
 - Destacar como a colaboração entre voluntários de TI e ONGs pode resultar em um impacto social positivo, resolvendo problemas tecnológicos que poderiam atrasar ou até impedir o progresso das atividades da ONG;
 - Definir um meio de conexão prático para quem quer se voluntariar às ONGs que precisam de voluntários;
