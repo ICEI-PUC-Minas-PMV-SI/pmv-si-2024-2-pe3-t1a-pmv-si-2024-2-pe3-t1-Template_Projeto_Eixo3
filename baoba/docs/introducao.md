@@ -4,7 +4,7 @@ Estamos em um momento crítico da história, tanto para a humanidade quanto para
 
 No Brasil, por exemplo, de acordo com a pesquisa "Contas de Ecossistemas: Espécies Ameaçadas de Extinção" do IBGE (2020), cerca de 3.299 espécies de animais e plantas estão em risco de extinção, representando 19,8% das 16.645 espécies avaliadas. Esse número, contudo, pode ser muito maior, considerando que o IBGE possui dados de conservação de apenas 10% das espécies conhecidas no país. Biomas como a Mata Atlântica, o Cerrado e a Caatinga estão entre os mais degradados, com percentuais alarmantes de espécies em perigo crítico, perigo e vulnerabilidade.
 
-Neste cenário, um site dedicado à divulgação das questões ambientais é essencial. Ele não apenas sublinha a gravidade da situação, mas também serve como uma plataforma para educar, conscientizar e inspirar ações concretas. Ao destacar as principais causas dessas crises e explorar soluções sustentáveis, o site desempenha um papel vital em promover a responsabilidade coletiva e incentivar uma mudança positiva em nossa relação com o planeta, compreendendo nosso papel e os impactos de nossas ações.
+Esta discussão visa não apenas destacar a gravidade da situação atual, mas também identificar as principais causas dessas crises ecológicas e buscar soluções viáveis para reverter, ou ao menos mitigar, os danos causados. Pretende-se promover uma compreensão mais profunda do nosso papel na Terra e dos impactos que nossas ações têm sobre o planeta, bem como destacar a importância de abordagens sustentáveis em todos os setores da sociedade.
 
 ## 1.1. Problema
 
