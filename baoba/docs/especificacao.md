@@ -59,13 +59,11 @@ TBD
 | RNF4   | O produto deve restringir o acesso por meio de senhas individuais para usuários autenticados. |
 | RNF5   | O sistema deve diferenciar o acesso entre usuários pessoa física e pessoa jurídica, com diferentes permissões de uso. |
 | RNF6   | O site deve ser capaz de lidar com alto volume de tráfego, garantindo desempenho em picos de acesso. |
-| RNF7   | O tempo de resposta para carregamento das páginas deve ser de no máximo 2 segundos em condições normais de rede. |
+| RNF7   | O tempo de resposta para carregamento das páginas deve ser de no máximo 2(?) segundos em condições normais de rede. |
 | RNF8   | O sistema deve seguir as normas da LGPD (Lei Geral de Proteção de Dados) para proteger dados pessoais. |
-| RNF9   | O servidor do aplicativo deve ter backups automáticos diários dos dados. |
-| RNF10  | A arquitetura do sistema deve ser modular para permitir a fácil adição de novas funcionalidades no futuro. |
-| RNF11  | O aplicativo deve ser compatível com navegadores populares (Chrome, Firefox, Safari, Edge). |
-| RNF12  | A plataforma deve ter suporte multilíngue, com pelo menos português e inglês disponíveis. |
-| RNF13  | A interface de usuário deve ser acessível, seguindo padrões de acessibilidade web (WCAG 2.1). |
+| RNF9  | A arquitetura do sistema deve ser modular para permitir a fácil adição de novas funcionalidades no futuro. |
+| RNF10  | O aplicativo deve ser compatível com navegadores populares (Chrome, Firefox, Safari, Edge). |
+| RNF11  | A interface de usuário deve ser acessível, seguindo padrões de acessibilidade web (WCAG 2.1). |
 | ... |	... |	... |
 
 ### 3.3.3 Usuários 
