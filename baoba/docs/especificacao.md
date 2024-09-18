@@ -1,20 +1,19 @@
 # 3. DOCUMENTO DE ESPECIFICAÇÃO DE REQUISITOS DE SOFTWARE
 
-Nesta parte do trabalho você deve detalhar a documentação dos requisitos do sistema proposto de acordo com as seções a seguir. Ressalta-se que aqui é utilizado como exemplo um sistema de gestão de cursos de aperfeiçoamento.
 
 ## 3.1 Objetivos deste documento
-Descrever e especificar as necessidades da Coordenação do Curso de Sistemas de Informação da PUC Minas que devem ser atendidas pelo projeto SCCA – Sistema de Cadastro de Cursos de Aperfeiçoamento.
+Descrever e especificar as necessidades da aplicação WEB Baobá que devem ser atendidas pelo projeto de Design Centrado no usuário no Eixo 3 de Sistemas de Informação em 2024.2.
 
 ## 3.2 Escopo do produto
 
 ### 3.2.1 Nome do produto e seus componentes principais
-O produto será denominado SCCA – Sistema de Cadastro de Cursos de Aperfeiçoamento. Ele terá somente um componente (módulo) com os devidos elementos necessários à gestão de cursos.
+O produto será denominado Baobá. Ele terá somente um componente ???? com os devidos elementos necessários à gestão de cursos.
 
 ### 3.2.2 Missão do produto
-Gerenciar informações sobre a oferta de cursos de aperfeiçoamento, gerenciar a composição das turmas, alunos, professores e matrículas. 
+A missão Baobá é fornecer uma plataforma centralizada com informações científicas rigorosas e acessíveis sobre o meio ambiente, promovendo a conscientização e a educação contínua sobre os impactos das atividades humanas na biodiversidade. Através de uma interface interativa, o projeto busca engajar diferentes públicos — desde a população geral até estudantes e empresas — na preservação ambiental, facilitando o acesso a dados confiáveis e incentivando ações sustentáveis que contribuam para a conservação da biosfera e para um futuro menos impactado por ações humanas na natureza.
 
 ### 3.2.3 Limites do produto
-O SCCA não fornece nenhuma forma de avaliação de alunos, pagamento de parcelas do curso, pagamento a professore e agendamentos. O SCCA não contempla o atendimento a vários cursos de Sistemas de Informação de outras unidades da PUC Minas.
+TBD
 
 ### 3.2.4 Benefícios do produto
 
@@ -29,20 +28,42 @@ O SCCA não fornece nenhuma forma de avaliação de alunos, pagamento de parcela
 
 ### 3.3.1 Requisitos Funcionais
 
-| Código | Requisito Funcional (Funcionalidade) | Descrição |
-|--------------------|------------------------------------|----------------------------------------|
-| RF1 | Gerenciar Curso de Aperfeiçoamento |	Processamento de Inclusão, Alteração, Exclusão e Consulta de Cursos de Aperfeiçoamento |
-| RF2 |	Gerenciar Professor	| Processamento de Inclusão, Alteração, Exclusão e Consulta de professores |
-| RF3	| Gerenciar Matrícula |	Processamento de Inclusão, Alteração, Exclusão e Consulta de Matrículas de alunos em Cursos de Aperfeiçoamento |
-| ... |	...	| ... |
+
+| Código | Requisito Funcional (Funcionalidade)                     | Descrição                                                                                                   |
+|--------|----------------------------------------------------------|-------------------------------------------------------------------------------------------------------------|
+| RF1    | Gerenciar Informações de Espécies Ameaçadas               | O sistema deve permitir a consulta, inclusão, alteração e exclusão de dados sobre espécies ameaçadas.        |
+| RF2    | Gerenciar Dados de Biomas                                 | O sistema deve permitir o gerenciamento de dados sobre diferentes biomas e suas espécies.                    |
+| RF3    | Consultar Impacto das Atividades Econômicas               | O sistema deve fornecer dados e relatórios sobre o impacto das atividades econômicas nas espécies e biomas.  |
+| RF4    | Mapear Queimadas e Desastres Naturais                     | O sistema deve exibir um mapa interativo com a localização de queimadas e desastres naturais relevantes no território brasileiro.      |
+| RF5    | Reportar Atividade de Vida Silvestre                      | Os usuários devem poder reportar atividades ilegais ou de risco envolvendo vida silvestre diretamente nos pontos de interesse do mapa. |
+| RF6    | Gerenciar Usuários                                        | O sistema deve permitir a criação, edição e exclusão de usuários, com diferentes níveis de permissão.         |
+| RF7    | Gerar Relatórios Ambientais                               | O sistema deve gerar relatórios sobre a biodiversidade e espécies ameaçadas para diferentes públicos (estudantes, empresas). |
+| RF8   | Mostrar Dados Estatísticos e Gráficos Interativos         | O sistema deve exibir gráficos interativos com dados sobre a degradação dos biomas e a situação das espécies. |
+| RF9    | Fornecer Informações Educativas                           | O sistema deve fornecer conteúdos educativos interativos sobre a preservação ambiental e a importância da biodiversidade. |
+| RF10    | Acompanhar Indicadores de Sustentabilidade                | O sistema deve exibir indicadores sobre a sustentabilidade dos biomas e espécies.                            |
+| RF11   | Integrar com Ferramentas de Ecoturismo                    | O sistema deve oferecer informações sobre ecoturismo, destacando áreas preservadas e oportunidades de visitação. |
+| RF12   | Gerenciar Fórum de Discussões                             | O sistema deve incluir um fórum para discussões entre usuários sobre questões ambientais e soluções sustentáveis. |
+| RF13   | Proporcionar Canal para Parcerias com Empresas            | O sistema deve permitir que empresas interessadas em projetos sustentáveis possam se conectar com o projeto Baobá. |
+| RF14   | Oferecer Recursos de Educação para Estudantes             | O sistema deve disponibilizar módulos educacionais e materiais didáticos para estudantes sobre biodiversidade e sustentabilidade. |
+| RF15   | Monitorar e Exibir Tendências de Queimadas                | O sistema deve monitorar e exibir tendências de queimadas e desmatamento com base em dados em tempo real.     |
+
 
 ### 3.3.2 Requisitos Não Funcionais
 
-| Código | Requisito Não Funcional (Restrição) |
-|--------------------|------------------------------------|
-| RNF1 | O ambiente operacional a ser utilizado é o Windows XP. |
-| RNF2 | O sistema deverá executar em um computador configurado com uma impressora de tecnologia laser ou de jato de tinta, a ser usada para impressão dos relatórios. |
-| RNF3 |	Segurança	O produto deve restringir o acesso por meio de senhas individuais para o usuário. |
+
+| Código | Requisito Não Funcional (Restrição)                                                   |
+|--------|---------------------------------------------------------------------------------------|
+| RNF1   | O site do Baobá precisa ser responsivo e funcionar em dispositivos móveis e desktops.  |
+| RNF2   | O site deve estar integrado a uma API que contenha uma base de dados robusta e escalável. |
+| RNF3   | O sistema deve garantir a segurança das informações, com criptografia de dados sensíveis. |
+| RNF4   | O produto deve restringir o acesso por meio de senhas individuais para usuários autenticados. |
+| RNF5   | O sistema deve diferenciar o acesso entre usuários pessoa física e pessoa jurídica, com diferentes permissões de uso. |
+| RNF6   | O site deve ser capaz de lidar com alto volume de tráfego, garantindo desempenho em picos de acesso. |
+| RNF7   | O tempo de resposta para carregamento das páginas deve ser de no máximo 2(?) segundos em condições normais de rede. |
+| RNF8   | O sistema deve seguir as normas da LGPD (Lei Geral de Proteção de Dados) para proteger dados pessoais. |
+| RNF9  | A arquitetura do sistema deve ser modular para permitir a fácil adição de novas funcionalidades no futuro. |
+| RNF10  | O aplicativo deve ser compatível com navegadores populares (Chrome, Firefox, Safari, Edge). |
+| RNF11  | A interface de usuário deve ser acessível, seguindo padrões de acessibilidade web (WCAG 2.1). |
 | ... |	... |	... |
 
 ### 3.3.3 Usuários 
