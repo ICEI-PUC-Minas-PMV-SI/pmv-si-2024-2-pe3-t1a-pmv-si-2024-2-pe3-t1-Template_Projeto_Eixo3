@@ -70,8 +70,9 @@ TBD
 
 | Ator | Descrição |
 |--------------------|------------------------------------|
-| Coordenador |	Usuário gerente do sistema responsável pelo cadastro e manutenção de cursos de aperfeiçoamento. Possui acesso geral ao sistema. |
-| Secretaria |	Usuário responsável por registros de alunos, professores, turmas e gerência de matrículas. |
+| Administrador |	Usuário responsável pela administração geral do sistema, com acesso completo a todos os módulos e funcionalidades. Ele pode gerenciar usuários, relatórios, e dados relacionados às espécies e biomas. |
+| Moderador do Fórum |	Usuário responsável por gerenciar o fórum de discussões, moderar interações entre os participantes e garantir que as diretrizes sejam seguidas. |
+| Estudante |	Usuário que pode consultar dados e relatórios, acessar materiais educativos, e interagir no fórum de discussões. Esse ator não tem permissão para modificar dados no sistema. |
 | ... |	... |	... |
 
 ## 3.4 Modelagem do Sistema
