@@ -73,7 +73,11 @@ TBD
 | Administrador |	Usuário responsável pela administração geral do sistema, com acesso completo a todos os módulos e funcionalidades. Ele pode gerenciar usuários, relatórios, e dados relacionados às espécies e biomas. |
 | Moderador do Fórum |	Usuário responsável por gerenciar o fórum de discussões, moderar interações entre os participantes e garantir que as diretrizes sejam seguidas. |
 | Estudante |	Usuário que pode consultar dados e relatórios, acessar materiais educativos, e interagir no fórum de discussões. Esse ator não tem permissão para modificar dados no sistema. |
+| Empresa/Parceiro | Usuário corporativo que pode consultar relatórios, acessar áreas específicas para empresas interessadas em projetos de sustentabilidade, e visualizar dados sobre o impacto das atividades econômicas. |
+| Visitante | Usuário sem autenticação, com acesso limitado a informações públicas sobre espécies ameaçadas, biomas e ecoturismo, mas sem permissão para interagir ou modificar dados no sistema. |
 | ... |	... |	... |
+
+Esses usuários representam diferentes níveis de acesso e papéis no sistema, permitindo uma gestão eficiente de dados e um engajamento diversificado com o público.
 
 ## 3.4 Modelagem do Sistema
 
