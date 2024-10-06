@@ -86,67 +86,128 @@ Como observado no diagrama de casos de uso da Figura 1, a secretária poderá ge
 
 #### Figura 1: Diagrama de Casos de Uso do Sistema.
 
-![dcu](https://github.com/user-attachments/assets/41f6b731-b44e-43aa-911f-423ad6198f47)
+![image](https://github.com/user-attachments/assets/57e7fe8c-73c8-47d5-9aa6-2f0ab1f424ae)
  
 ### 3.4.2 Descrições de Casos de Uso
 
-Cada caso de uso deve ter a sua descrição representada nesta seção. Exemplo:
+#### Gerenciar Fórum (CSU01)
 
-#### Gerenciar Professor (CSU01)
+**Sumário**: O Administrador realiza a gestão completa do sistema, incluindo a criação e controle dos fóruns e seus usuários.
 
-Sumário: A Secretária realiza a gestão (inclusão, remoção, alteração e consulta) dos dados sobre professores.
+**Ator Primário**: Administrador.
 
-Ator Primário: Secretária.
+**Ator Secundário**: Nenhum.
 
-Ator Secundário: Coordenador.
+**Pré-condições**: O Administrador deve estar autenticado no sistema.
 
-Pré-condições: A Secretária deve ser validada pelo Sistema.
+**Fluxo Principal**:
 
-Fluxo Principal:
+1) O Administrador acessa o sistema.
+2) O sistema apresenta as operações de gerenciamento do fórum e dos usuários.
+3) O Administrador escolhe a operação desejada: criação de fórum, modificação, exclusão ou gerenciamento de usuários.
+4) O Administrador realiza as operações escolhidas.
+5) O sistema confirma as alterações feitas e apresenta o estado atualizado.
 
-1) 	A Secretária requisita manutenção de professores.
-2) 	O Sistema apresenta as operações que podem ser realizadas: inclusão de um novo professor, alteração de um professor, a exclusão de um professor e a consulta de dados de um professor.
-3) 	A Secretária seleciona a operação desejada: Inclusão, Exclusão, Alteração ou Consulta, ou opta por finalizar o caso de uso.
-4) 	Se a Secretária desejar continuar com a gestão de professores, o caso de uso retorna ao passo 2; caso contrário o caso de uso termina.
+**Pós-condições**: O fórum e os usuários foram gerenciados conforme as operações realizadas.
 
-Fluxo Alternativo (3): Inclusão
+---
 
-a)	A Secretária requisita a inclusão de um professor. <br>
-b)	O Sistema apresenta uma janela solicitando o CPF do professor a ser cadastrado. <br>
-c)	A Secretária fornece o dado solicitado. <br>
-d)	O Sistema verifica se o professor já está cadastrado. Se sim, o Sistema reporta o fato e volta ao início; caso contrário, apresenta um formulário em branco para que os detalhes do professor (Código, Nome, Endereço, CEP, Estado, Cidade, Bairro, Telefone, Identidade, Sexo, Fax, CPF, Data do Cadastro e Observação) sejam incluídos. <br>
-e)	A Secretária fornece os detalhes do novo professor. <br>
-f)	O Sistema verifica a validade dos dados. Se os dados forem válidos, inclui o novo professor e a grade listando os professores cadastrados é atualizada; caso contrário, o Sistema reporta o fato, solicita novos dados e repete a verificação. <br>
+#### Moderar Fórum (CSU02)
 
-Fluxo Alternativo (3): Remoção
+**Sumário**: O Moderador do Fórum gerencia e modera as interações entre os participantes, garantindo que as normas sejam seguidas.
 
-a)	A Secretária seleciona um professor e requisita ao Sistema que o remova. <br>
-b)	Se o professor pode ser removido, o Sistema realiza a remoção; caso contrário, o Sistema reporta o fato. <br>
+**Ator Primário**: Moderador do Fórum.
 
-Fluxo Alternativo (3): Alteração
+**Ator Secundário**: Estudante, Empresa/Parceiro, Visitante.
 
-a)	A Secretária altera um ou mais dos detalhes do professor e requisita sua atualização. <br>
-b)	O Sistema verifica a validade dos dados e, se eles forem válidos, altera os dados na lista de professores, caso contrário, o erro é reportado. <br>
- 
-Fluxo Alternativo (3): Consulta
+**Pré-condições**: O Moderador deve estar autenticado e ter permissões de moderação.
 
-a)	A Secretária opta por pesquisar pelo nome ou código e solicita a consulta sobre a lista de professores. <br>
-b)	O Sistema apresenta uma lista professores. <br>
-c)	A Secretária seleciona o professor. <br>
-d)	O Sistema apresenta os detalhes do professor no formulário de professores. <br>
+**Fluxo Principal**:
 
-Pós-condições: Um professor foi inserido ou removido, seus dados foram alterados ou apresentados na tela.
+1) O Moderador acessa o sistema de moderação.
+2) O sistema apresenta as interações recentes dos participantes no fórum.
+3) O Moderador escolhe interações para moderar: exclusão de mensagens, advertências a usuários, ou bloqueio de contas.
+4) O sistema aplica as ações e atualiza a situação do fórum.
+
+**Pós-condições**: As interações do fórum foram moderadas e os usuários notificados.
+
+---
+
+#### Interagir no Fórum (CSU03)
+
+**Sumário**: O Estudante participa do fórum, interagindo com outros usuários e publicando suas próprias contribuições.
+
+**Ator Primário**: Estudante.
+
+**Ator Secundário**: Moderador do Fórum, Administrador.
+
+**Pré-condições**: O Estudante deve estar autenticado no sistema.
+
+**Fluxo Principal**:
+
+1) O Estudante acessa o fórum.
+2) O sistema exibe os tópicos de discussão disponíveis.
+3) O Estudante seleciona um tópico e participa através de respostas ou novos posts.
+4) O sistema registra a interação e atualiza o tópico.
+
+**Pós-condições**: A interação do Estudante foi registrada no fórum.
+
+---
+
+#### Visualizar Relatórios e Impactos (CSU04)
+
+**Sumário**: Empresas ou Parceiros têm acesso a dados e relatórios sobre os impactos das atividades econômicas discutidas no fórum.
+
+**Ator Primário**: Empresa/Parceiro.
+
+**Ator Secundário**: Moderador do Fórum, Administrador.
+
+**Pré-condições**: O usuário deve estar autenticado e ter permissões adequadas para visualizar relatórios.
+
+**Fluxo Principal**:
+
+1) A Empresa/Parceiro acessa a área de relatórios.
+2) O sistema apresenta as opções de relatórios disponíveis.
+3) A Empresa/Parceiro seleciona o relatório desejado.
+4) O sistema gera o relatório e o exibe.
+
+**Pós-condições**: O relatório foi exibido para a Empresa/Parceiro.
+
+---
+
+#### Acesso a Informações Públicas (CSU05)
+
+**Sumário**: Visitantes têm acesso a informações públicas no fórum, podendo visualizar tópicos e dados sem interagir diretamente.
+
+**Ator Primário**: Visitante.
+
+**Ator Secundário**: Administrador.
+
+**Pré-condições**: Nenhuma autenticação é necessária.
+
+**Fluxo Principal**:
+
+1) O Visitante acessa o fórum.
+2) O sistema exibe os tópicos públicos disponíveis para visualização.
+3) O Visitante navega pelos tópicos e visualiza o conteúdo.
+
+**Pós-condições**: O Visitante visualizou informações públicas no fórum.
 
 ### 3.4.3 Diagrama de Classes 
 ![Flowchart](https://github.com/user-attachments/assets/075a6b3c-75cb-4477-8df7-9de8e3b53a9d)
 
 ### 3.4.4 Descrições das Classes 
 
-| # | Nome | Descrição |
-|--------------------|------------------------------------|----------------------------------------|
-| 1	|	Aluno |	Cadastro de informações relativas aos alunos. |
-| 2	| Curso |	Cadastro geral de cursos de aperfeiçoamento. |
-| 3 |	Matrícula |	Cadastro de Matrículas de alunos nos cursos. |
-| 4 |	Turma |	Cadastro de turmas.
-| 5	|	Professor |	Cadastro geral de professores que ministram as disciplinas. |
-| ... |	... |	... |
+| #  | Nome          | Descrição                                                                  |
+|----|---------------|----------------------------------------------------------------------------|
+| 1  | Cliente       | Cadastro de informações gerais dos clientes, como nome, contato e endereço |
+| 2  | Produto       | Cadastro de produtos disponíveis, incluindo nome, descrição e preço        |
+| 3  | Pedido        | Registro de pedidos feitos pelos clientes, contendo informações de data e status |
+| 4  | ItemPedido    | Detalhamento dos itens que compõem um pedido, incluindo quantidade e valor |
+| 5  | Pagamento     | Cadastro de pagamentos realizados pelos clientes, vinculados aos pedidos|
+| 6  | Categoria     | Classificação dos produtos, permitindo organização por tipos ou grupos     |
+| 7  | Fornecedor    | Cadastro de fornecedores que oferecem os produtos, com informações de contato |
+| 8  | Estoque       | Controle do estoque de produtos, incluindo quantidade disponível e local de armazenamento |
+| 9  | Funcionario   | Cadastro de funcionários que operam o sistema, com dados de login e perfil |
+| 10 | Endereco      | Cadastro de endereços associados aos clientes e fornecedores, incluindo cidade e estado |
+
