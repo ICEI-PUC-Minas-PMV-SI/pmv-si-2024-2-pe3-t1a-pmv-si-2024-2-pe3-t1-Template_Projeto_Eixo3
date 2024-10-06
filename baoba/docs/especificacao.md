@@ -138,8 +138,9 @@ d)	O Sistema apresenta os detalhes do professor no formulário de professores. <
 Pós-condições: Um professor foi inserido ou removido, seus dados foram alterados ou apresentados na tela.
 
 ### 3.4.3 Diagrama de Classes 
+![Flowchart](https://github.com/user-attachments/assets/075a6b3c-75cb-4477-8df7-9de8e3b53a9d)
 
-A Figura 2 mostra o diagrama de classes do sistema. A Matrícula deve conter a identificação do funcionário responsável pelo registro, bem com os dados do aluno e turmas. Para uma disciplina podemos ter diversas turmas, mas apenas um professor responsável por ela.
+
 
 #### Figura 2: Diagrama de Classes do Sistema.
  
