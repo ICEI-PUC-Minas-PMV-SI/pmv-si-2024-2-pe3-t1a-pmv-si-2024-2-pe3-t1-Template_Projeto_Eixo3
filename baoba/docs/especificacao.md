@@ -202,7 +202,7 @@ Como observado no diagrama de casos de uso da Figura 1, a secretária poderá ge
 | 2  | Administrator  | Subclasse de User, com métodos que permitem gerenciar o sistema                    |
 | 3  | Student        | Subclasse de User, com métodos para visualizar relatórios e interagir no fórum |
 | 4  | Moderator      | Subclasse de User, com métodos que permitem interceder nas interações no fórum            |
-| 5  | PartnerCompany | Subclasse de User, com métodos para visualizar relatórios de impacto econômico |
+| 5  | PartnerCompany | Subclasse de Administrador, com métodos para visualizar relatórios de impacto econômico |
 | 6  | Visitor        | Classe independente, com métodos acessar informações públicas |
 | 7  | Forum          | Classe base do fórum com métodos para criar, excluir e visualizar posts |
 | 8  | Report         | Classe representando um relatório de dados focados no sistema com métodos para gerar e visualizar relatórios |
