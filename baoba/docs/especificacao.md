@@ -140,12 +140,6 @@ Pós-condições: Um professor foi inserido ou removido, seus dados foram altera
 ### 3.4.3 Diagrama de Classes 
 ![Flowchart](https://github.com/user-attachments/assets/075a6b3c-75cb-4477-8df7-9de8e3b53a9d)
 
-
-
-#### Figura 2: Diagrama de Classes do Sistema.
- 
-![dcu](https://github.com/user-attachments/assets/97ab1aa8-eb03-4b58-9ad5-1697d414a451)
-
 ### 3.4.4 Descrições das Classes 
 
 | # | Nome | Descrição |
