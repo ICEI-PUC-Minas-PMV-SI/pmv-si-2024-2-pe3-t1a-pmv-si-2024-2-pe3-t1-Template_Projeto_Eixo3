@@ -104,7 +104,7 @@ Como observado no diagrama de casos de uso da Figura 1, a secretária poderá ge
 
 1) O Administrador acessa o sistema.
 2) O sistema apresenta as operações de gerenciamento do fórum e dos usuários.
-3) O Administrador escolhe a operação desejada: criação de fórum, modificação, exclusão ou gerenciamento de usuários.
+3) O Administrador escolhe a operação desejada: criação, modificação, exclusão ou gerenciamento de tópicos no fórum ou usuários.
 4) O Administrador realiza as operações escolhidas.
 5) O sistema confirma as alterações feitas e apresenta o estado atualizado.
 
@@ -118,7 +118,7 @@ Como observado no diagrama de casos de uso da Figura 1, a secretária poderá ge
 
 **Ator Primário**: Moderador do Fórum.
 
-**Ator Secundário**: Estudante, Empresa/Parceiro, Visitante.
+**Ator Secundário**: Estudante, Empresa/Parceiro.
 
 **Pré-condições**: O Moderador deve estar autenticado e ter permissões de moderação.
 
@@ -126,7 +126,7 @@ Como observado no diagrama de casos de uso da Figura 1, a secretária poderá ge
 
 1) O Moderador acessa o sistema de moderação.
 2) O sistema apresenta as interações recentes dos participantes no fórum.
-3) O Moderador escolhe interações para moderar: exclusão de mensagens, advertências a usuários, ou bloqueio de contas.
+3) O Moderador escolhe interações para moderar e exclui mensagens, faz advertências a usuários ou bloqueia de contas.
 4) O sistema aplica as ações e atualiza a situação do fórum.
 
 **Pós-condições**: As interações do fórum foram moderadas e os usuários notificados.
@@ -156,11 +156,9 @@ Como observado no diagrama de casos de uso da Figura 1, a secretária poderá ge
 
 #### Visualizar Relatórios e Impactos (CSU04)
 
-**Sumário**: Empresas ou Parceiros têm acesso a dados e relatórios sobre os impactos das atividades econômicas discutidas no fórum.
+**Sumário**: Empresas parceiras e estudantes têm acesso a dados e relatórios sobre a base atualizada.
 
-**Ator Primário**: Empresa/Parceiro.
-
-**Ator Secundário**: Moderador do Fórum, Administrador.
+**Ator Primário**: Empresa/Parceiro, Estudante.
 
 **Pré-condições**: O usuário deve estar autenticado e ter permissões adequadas para visualizar relatórios.
 
@@ -171,7 +169,7 @@ Como observado no diagrama de casos de uso da Figura 1, a secretária poderá ge
 3) A Empresa/Parceiro seleciona o relatório desejado.
 4) O sistema gera o relatório e o exibe.
 
-**Pós-condições**: O relatório foi exibido para a Empresa/Parceiro.
+**Pós-condições**: O relatório foi exibido para a Empresa/Parceiro ou estudante.
 
 ---
 
@@ -198,16 +196,17 @@ Como observado no diagrama de casos de uso da Figura 1, a secretária poderá ge
 
 ### 3.4.4 Descrições das Classes 
 
-| #  | Nome          | Descrição                                                                  |
-|----|---------------|----------------------------------------------------------------------------|
-| 1  | Cliente       | Cadastro de informações gerais dos clientes, como nome, contato e endereço |
-| 2  | Produto       | Cadastro de produtos disponíveis, incluindo nome, descrição e preço        |
-| 3  | Pedido        | Registro de pedidos feitos pelos clientes, contendo informações de data e status |
-| 4  | ItemPedido    | Detalhamento dos itens que compõem um pedido, incluindo quantidade e valor |
-| 5  | Pagamento     | Cadastro de pagamentos realizados pelos clientes, vinculados aos pedidos|
-| 6  | Categoria     | Classificação dos produtos, permitindo organização por tipos ou grupos     |
-| 7  | Fornecedor    | Cadastro de fornecedores que oferecem os produtos, com informações de contato |
-| 8  | Estoque       | Controle do estoque de produtos, incluindo quantidade disponível e local de armazenamento |
-| 9  | Funcionario   | Cadastro de funcionários que operam o sistema, com dados de login e perfil |
-| 10 | Endereco      | Cadastro de endereços associados aos clientes e fornecedores, incluindo cidade e estado |
+| #  | Nome           | Descrição                                                                 |
+|----|----------------|---------------------------------------------------------------------------|
+| 1  | User           | Classe abstrata base para usuários com métodos para login e logout |
+| 2  | Administrator  | Subclasse de User, com métodos que permitem gerenciar o sistema                    |
+| 3  | Student        | Subclasse de User, com métodos para visualizar relatórios e interagir no fórum |
+| 4  | Moderator      | Subclasse de User, com métodos que permitem interceder nas interações no fórum            |
+| 5  | PartnerCompany | Subclasse de User, com métodos para visualizar relatórios de impacto econômico |
+| 6  | Visitor        | Classe independente, com métodos acessar informações públicas |
+| 7  | Forum          | Classe base do fórum com métodos para criar, excluir e visualizar posts |
+| 8  | Report         | Classe representando um relatório de dados focados no sistema com métodos para gerar e visualizar relatórios |
+| 9  | Region         | Implementação da classe relatório, com atributos de local e nome da região |
+
+
 
