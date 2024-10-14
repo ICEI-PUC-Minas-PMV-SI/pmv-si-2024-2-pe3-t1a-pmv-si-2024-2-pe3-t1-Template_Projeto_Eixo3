@@ -36,3 +36,32 @@ class User {
         //processos de logout
     }
 }
+
+class Administrator extends User {
+    manageSystem() {
+        //processos de gerenciamento do sistema
+    }
+}
+
+class Moderator extends User {
+    manageSystem() {
+    }
+}
+
+class Student extends User {
+    constructor(first_name, last_name, email, password, institution) {
+        super(first_name, last_name, email, password)
+        this.institution = institution
+    }
+
+    interactInForum() {
+        //processos de estudo
+    }
+}
+
+export {
+    User,
+    Administrator,
+    Moderator,
+    Student
+}
