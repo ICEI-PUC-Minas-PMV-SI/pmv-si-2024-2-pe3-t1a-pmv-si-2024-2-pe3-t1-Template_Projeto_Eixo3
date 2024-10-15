@@ -39,3 +39,7 @@ class Forum {
         return this.forum.find(post => post.id === postId);
     }
 }
+
+export {
+    Forum
+}

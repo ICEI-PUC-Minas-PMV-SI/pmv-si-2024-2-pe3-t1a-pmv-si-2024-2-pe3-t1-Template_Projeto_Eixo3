@@ -5,3 +5,7 @@ class Visitor {
         this.id = ++Visitor.id
     }
 }
+
+export {
+    Visitor
+}

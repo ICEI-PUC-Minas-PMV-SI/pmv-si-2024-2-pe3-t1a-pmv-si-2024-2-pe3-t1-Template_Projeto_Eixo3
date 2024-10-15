@@ -21,3 +21,7 @@ class Report {
         this.comments.push(comment)
     }
 }
+
+export {
+    Report
+}

@@ -43,3 +43,7 @@ class Region {
         }
     }
 }
+
+export {
+    Region
+}
