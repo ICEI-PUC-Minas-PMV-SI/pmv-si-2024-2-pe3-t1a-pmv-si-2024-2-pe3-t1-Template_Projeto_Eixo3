@@ -7,6 +7,7 @@ class PartnerCompany {
         const validateCnpj = /([0-9]{2}[\.]?[0-9]{3}[\.]?[0-9]{3}[\/]?[0-9]{4}[-]?[0-9]{2})|([0-9]{3}[\.]?[0-9]{3}[\.]?[0-9]{3}[-]?[0-9]{2})/g
 
         if (validateCnpj.exec(cnpj)){
+            //TODO: bater em uma base de cnpj antes de aceitar o cadastro
             this.cnpj = cnpj
         } else{
             return new Error('Invalid CNPJ')
