@@ -1,30 +1,17 @@
 {
   "name": "baoba",
-  "version": "0.1.0",
-  "private": true,
+  "version": "1.0.0",
+  "description": "`CURSO: Sistemas de Informação`",
+  "main": "main.js",
+  "directories": {
+    "doc": "docs"
+  },
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "author": "",
+  "license": "ISC",
   "dependencies": {
-    "@chakra-ui/next-js": "^2.2.0",
-    "@chakra-ui/react": "^2.8.2",
-    "@emotion/react": "^11.13.3",
-    "@emotion/styled": "^11.13.0",
-    "@fontsource/open-sans": "^5.0.30",
-    "@fontsource/raleway": "^5.0.21",
-    "framer-motion": "^11.5.4",
-    "next": "14.2.7",
-    "react": "^18",
-    "react-dom": "^18"
-  },
-  "devDependencies": {
-    "autoprefixer": "^10.4.20",
-    "eslint": "^8",
-    "eslint-config-next": "14.2.7",
-    "postcss": "^8.4.47",
-    "tailwindcss": "^3.4.14"
+    "json-server": "^1.0.0-beta.3"
   }
 }

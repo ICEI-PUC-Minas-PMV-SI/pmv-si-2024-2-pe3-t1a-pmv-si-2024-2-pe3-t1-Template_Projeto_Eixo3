@@ -1,0 +1,2085 @@
+html {
+	font-family: "Poppins", sans-serif;
+	font-size: 1rem;
+	height: 100vh;
+}
+
+h1 {
+	font-size: 1.8rem;
+	margin-bottom: 15px;
+}
+
+h2 {
+	font-size: 1.5rem;
+}
+
+h3 {
+	font-size: 1.3rem;
+}
+
+h4 {
+	font-size: 1.1rem;
+}
+
+body {
+	background-color: #ffffff;
+	color: #000000;
+	text-align: left;
+	min-height: 100%;
+}
+
+footer {
+	background-color: #426b1f;
+	bottom: 0;
+	color: #fff;
+	padding: 10px;
+	position: fixed;
+	text-align: center;
+	width: 100%;
+}
+
+footer p {
+	margin: auto;
+	font-size: 0.8rem;
+}
+
+header {
+	align-items: center;
+	background-color: rgba(145, 168, 126, 0.22);
+	color: #35200e;
+	display: flex;
+	height: 80px;
+	margin: 0;
+	padding: 10px 0;
+	text-align: left;
+}
+
+header a {
+	color: #35200e;
+	margin: 0 10px;
+	text-decoration: none;
+}
+
+input,
+textarea::placeholder {
+	font-family: "Poppins", sans-serif;
+}
+
+a,
+a:visited,
+a:hover,
+a:active {
+	text-decoration: none;
+	color: inherit;
+}
+
+.header {
+	display: flex;
+	justify-content: space-between;
+}
+
+.imagem {
+	border-radius: 10px;
+}
+
+.logo {
+	flex: 1;
+}
+
+.menu {
+	flex: 2;
+	list-style-type: none;
+	margin-left: 4rem;
+}
+
+.clickableIcon {
+	cursor: pointer;
+}
+
+.menu li {
+	display: inline-block;
+}
+
+.redes-sociais {
+	margin-bottom: -1rem;
+	display: block;
+	text-align: left;
+}
+
+.redes-sociais a i {
+	color: #ffffff;
+	display: inline-block;
+	font-size: 20px;
+	margin: 0 10px;
+	text-align: left;
+	align-self: center;
+}
+
+.search-form {
+    display: flex;
+    flex-direction: row;
+}
+
+/* css especifico para pagina home */
+
+.padding-2 {
+	padding: 2rem;
+}
+
+.card-flex {
+	display: flex;
+
+}
+
+.home__info {
+	display: flex;
+	margin: auto;
+	width: 80%;
+	margin-top: 3rem;
+    align-items: center;
+}
+
+.home__info-text {
+	text-align: left;
+	margin-right: 2rem;
+}
+
+.home__topics {
+	margin-top: 3rem;
+	background-color: #eae9dd;
+	width: 100%;
+	height: 200px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.home__topics-container {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	width: 190px;
+	height: 150px;
+	background-color: #d6d4bd;
+	border-radius: 10px;
+}
+
+.home__topics-container a {
+	text-decoration: none;
+	color: #000000;
+	text-align: center;
+}
+
+.home__topics-container:hover {
+	background-color: #d1d1c7;
+	cursor: pointer;
+}
+
+@media (min-height: 768px) {
+	.home__info {
+		margin-top: 8rem;
+	}
+
+	.home__topics {
+		margin-top: 8rem;
+	}
+}
+
+@media (max-width: 678px) {
+	header h1 {
+		display: none;
+	}
+
+	.menu {
+		margin-left: 1rem;
+	}
+
+	.search-container input {
+		width: 100px;
+	}
+
+	.home__main {
+		height: auto;
+	}
+
+	.home__info {
+		flex-direction: column;
+		margin-top: 3rem;
+	}
+
+	#imagem-baoba {
+		margin-top: 2rem;
+	}
+
+	.home__topics {
+		margin: 15rem 0 20rem 0;
+		flex-direction: column;
+		background-color: inherit;
+	}
+
+	.home__topics-container {
+		margin-top: 2rem;
+	}
+
+	footer {
+		display: flex;
+		flex-direction: column;
+	}
+
+	footer .redes-sociais {
+		height: 25px;
+		margin: 0 auto 0 auto;
+	}
+}
+
+/* css especifico para pagina sobre */
+
+.sobre__info {
+	display: flex;
+	width: 90%;
+	margin-left: 2rem;
+}
+
+.sobre__info-img {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.sobre__info-text {
+	text-align: left;
+	margin: 2rem 0 2rem 2rem;
+}
+
+.sobre__info-text.colorida {
+	background-color: #f8eee5;
+	padding: 20px;
+	border-radius: 10px;
+}
+
+.sobre__info-text ul {
+	list-style-type: disc;
+	margin-left: 20px;
+}
+
+.sobre__info-text h1,
+.sobre__info-text h2 {
+	text-align: left;
+}
+
+.sobre__info-text p {
+	text-align: left;
+}
+
+.sobre__info-text.colorida p:last-child {
+	text-align: left;
+}
+
+@media (max-width: 768px) {
+	.sobre__info {
+		flex-direction: column;
+		margin-left: 1rem;
+	}
+
+	.sobre__info-img,
+	.sobre__info-text {
+		width: 100%;
+		margin: 1rem 0;
+	}
+
+	.sobre__info-text {
+		margin-left: 0;
+		margin-right: 0;
+	}
+}
+
+@media (max-width: 480px) {
+	.sobre__info {
+		margin-left: 0.5rem;
+	}
+
+	.sobre__info-text.colorida {
+		padding: 15px;
+		border-radius: 5px;
+	}
+
+	.sobre__info-text h1,
+	.sobre__info-text h2 {
+		font-size: smaller;
+	}
+}
+
+/* css especifico para pagina pesquisa */
+
+.pesquisa-resultados {
+	background-color: #f8eee5;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	width: 80%;
+	min-height: 120px;
+	text-align: left;
+	margin: 1rem;
+	padding: 0.5rem;
+	border-radius: 10px;
+}
+
+.pesquisa-resultados h2 {
+	text-align: left;
+}
+
+.pesquisa-resultados a {
+	text-decoration: none;
+	color: #35200e;
+}
+
+/* Media queries para tablets */
+@media (max-width: 768px) {
+	.pesquisa-resultados {
+		width: 90%;
+		padding: 0.5rem 1rem;
+	}
+
+	.pesquisa-resultados h2 {
+		font-size: 1.25rem;
+	}
+}
+
+/* Media queries para smartphones */
+@media (max-width: 480px) {
+	.pesquisa-resultados {
+		width: 95%;
+		margin: 0.5rem;
+		padding: 0.5rem;
+		border-radius: 5px;
+	}
+
+	.pesquisa-resultados h2 {
+		font-size: 1rem;
+	}
+
+	.pesquisa-resultados a {
+		font-size: 0.9rem;
+	}
+}
+
+/* css especifico para pagina forum */
+
+.forum__container {
+	display: grid;
+	grid-template-columns: 2fr 1fr;
+	font-size: 0.8rem;
+	height: 80vh;
+}
+
+.forum__container-posts {
+	overflow-y: auto;
+	height: 100%;
+	direction: rtl;
+}
+
+.forum__container-posts {
+	overflow: hidden;
+	scrollbar-gutter: stable both-edges;
+}
+
+.forum__container-posts:hover,
+.forum__container-posts:active,
+.forum__container-posts:focus {
+	overflow-y: scroll;
+}
+
+.forum__container-posts::-webkit-scrollbar {
+	width: 0.5em;
+}
+
+.forum__container-posts::-webkit-scrollbar-track {
+	background-color: hsl(250 15% 93%);
+}
+
+.forum__container-posts::-webkit-scrollbar-thumb {
+	background-color: hsl(250 15% 60%);
+}
+
+.forum__container-posts::-webkit-scrollbar-thumb:hover {
+	background-color: hsl(250 15% 27%);
+}
+
+.forum__post-list {
+	direction: ltr;
+}
+
+.forum__post-item {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	width: 80%;
+	text-align: left;
+	margin: 1rem 1rem 0 1rem;
+	padding: 0.5rem;
+	background-color: #eae9dd;
+	border-radius: 10px;
+}
+
+.forum__post-item--options {
+	display: flex;
+	justify-content: space-between;
+	padding: 0.3rem;
+	margin-top: 0.5rem;
+}
+
+.forum__post-item--options span {
+	vertical-align: super;
+	margin-right: 0.4rem;
+}
+
+.forum__post-new {
+	margin: 1rem 1rem 0 1rem;
+	width: 80%;
+}
+
+.forum__post-new input,
+textarea {
+	background-color: #eae9dd;
+	border: none;
+	border-radius: 10px;
+	padding: 0.5rem;
+}
+
+.forum__post-new--upper {
+	display: flex;
+	justify-content: space-between;
+}
+
+.forum__post-new--upper input {
+	width: 45%;
+}
+
+.forum__post-new--lower {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 0.5rem;
+}
+
+.forum__post-new--lower input {
+	width: 85%;
+}
+
+#new-post-content {
+	height: 100px;
+	width: 100%;
+	resize: none;
+}
+
+.forum__post-button-container {
+	display: flex;
+	justify-content: center;
+}
+
+.forum__post-new--button {
+	background-color: #426b1f;
+	border: none;
+	border-radius: 10px;
+	color: #ffffff;
+	padding: 0.5rem;
+	margin-top: 1rem;
+	height: 45px;
+	width: 100%;
+	align-self: flex-end;
+}
+
+.forum__trending-content {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	width: 80%;
+	min-height: 180px;
+	text-align: left;
+	margin: 1rem 1rem 0 1rem;
+	background-color: #eae9dd;
+	border-radius: 10px;
+}
+
+.forum__trending-content>* {
+	padding: 0.5rem;
+}
+
+.forum__trending-topics {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	min-height: 150px;
+}
+
+.forum__trending-topics {
+	font-size: 0.8rem;
+}
+
+@media (max-width: 678px) {
+	.forum__container {
+		margin-bottom: 12rem;
+	}
+
+	.forum__post-item--options {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		grid-template-areas: "first second" "third third";
+	}
+
+	.forum__options--first {
+		grid-area: first;
+	}
+
+	.forum__options--second {
+		grid-area: second;
+	}
+
+	.forum__options--third {
+		grid-area: third;
+	}
+
+	.forum__post-new {
+		margin: 2rem 1rem 0 0;
+	}
+
+	.forum__post-new--upper {
+		flex-direction: column;
+	}
+
+	.forum__post-new--upper input {
+		width: 100%;
+		margin-top: 0.5rem;
+	}
+
+	.forum__post-new--lower {
+		display: flex;
+		flex-direction: column;
+		width: 100%;
+	}
+
+	.forum__post-new--lower input {
+		width: 100%;
+	}
+
+	.forum__post-new--button {
+		height: 30px;
+		text-align: center;
+		align-self: flex-end;
+		margin-top: 1rem;
+	}
+
+	#new-post-content {
+		height: 100px;
+	}
+
+	.forum__trending-content {
+		margin: 1rem 1rem 0 0;
+	}
+
+	.forum__trending-topics {
+		font-size: 0.6rem;
+	}
+
+	.forum__trending-topics>* {
+		margin: 0.3rem;
+	}
+}
+
+/* comment section */
+
+.post-content__page {
+	display: grid;
+	grid-template-columns: 2fr 1fr;
+}
+
+.post-content__container {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	width: 90%;
+	text-align: left;
+	margin: 1rem 1rem 4rem 1rem;
+	padding: 0.5rem;
+}
+
+.post-content__main {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: #eae9dd;
+	align-items: start;
+	border-radius: 10px;
+	padding: 0.5rem;
+}
+
+.post-content__main span {
+	margin: 0.4rem;
+}
+
+.post-content__comment {
+	display: flex;
+	width: 85%;
+	justify-content: flex-end;
+	align-items: center;
+	margin: 0.5rem;
+}
+
+.post-content__user-icon {
+	border: 1px solid;
+	border-radius: 50%;
+	padding: 0.6rem;
+}
+
+.post-content__comment-items {
+	background-color: #eae9dd;
+	align-items: start;
+	border-radius: 10px;
+	width: 100%;
+	padding: 0.4rem;
+	margin: 0.5rem;
+	display: flex;
+	flex-direction: column;
+}
+
+.post-content__comment-items>* {
+	margin: 0.2rem;
+}
+
+.post-content__comment-form {
+	display: flex;
+	flex-direction: column;
+	width: 90%;
+	margin: 1rem 1rem 0 1rem;
+	padding: 0.5rem;
+}
+
+.post__comment-user {
+	background-color: #eae9dd;
+	border: none;
+	border-radius: 10px;
+	width: 40%;
+	margin: 0.5rem 0 0.5rem 0;
+	padding: 0.5rem;
+}
+
+.post-content__comment-textarea {
+	background-color: #eae9dd;
+	border: none;
+	border-radius: 10px;
+	margin: 0.5rem 0 0.5rem 0;
+	padding: 0.5rem;
+	resize: none;
+	height: 75px;
+}
+
+.post-content__comment-button {
+	background-color: #426b1f;
+	border: none;
+	border-radius: 10px;
+	color: #ffffff;
+	margin: 0.5rem 0 0.5rem 0;
+	height: 35px;
+	width: 100%;
+	align-self: flex-end;
+}
+
+@media (max-width: 678px) {
+	.post-content__page {
+		display: flex;
+		flex-direction: column;
+		margin-bottom: 5rem;
+	}
+}
+
+/* css página de sustentabilidade */
+
+.header-custom {
+	header {
+		align-items: center;
+		background-color: rgba(145, 168, 126, 0.22);
+		color: #35200e;
+		display: flex;
+		height: 50px;
+		margin: 0px;
+		padding: 10px 0;
+		text-align: left;
+	}
+
+	header a {
+		color: #35200e;
+		margin: 0 10px;
+		text-decoration: none;
+	}
+
+	.header {
+		display: flex;
+		justify-content: space-between;
+	}
+}
+
+.main-card-sus {
+	margin: 20px auto;
+	width: 80%;
+	display: flex;
+	gap: 20px;
+	background-color: #eae9dd !important;
+	border-radius: 10px;
+}
+
+.text-and-image-sus {
+	display: flex;
+	align-items: center;
+	gap: 20px;
+}
+
+.text-sus {
+	margin-left: 10px;
+	max-width: 70%;
+}
+
+.text-sus h1 {
+	font-size: 24px;
+	margin-bottom: 10px;
+	text-align: center;
+}
+
+.image-sus img {
+	display: block;
+	width: 100%;
+	height: auto;
+	border-radius: 10px;
+}
+
+.caixa-texto ol {
+	list-style-type: decimal;
+	padding-left: 40px;
+}
+
+.caixa-texto ol li {
+	text-align: left;
+	margin-bottom: 15px;
+}
+
+.caixa-texto {
+	background-color: #f8eee5;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	padding: 10px;
+}
+
+.col-md-6 h1 {
+	margin-bottom: 20px;
+}
+
+.caixa-texto h2 {
+	margin-bottom: 20px;
+}
+
+.header {
+	margin-bottom: 30px;
+}
+
+.main {
+	margin: 20px;
+	padding-bottom: 30px;
+}
+
+.imagem-meio {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 20px;
+}
+
+.texto-final {
+	margin-bottom: 40px;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+.container-2 {
+	margin-bottom: 20px;
+	margin-right: 20px;
+}
+
+.parceiros {
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	margin: auto;
+}
+
+.botao-parceiros {
+	background-color: #e7ece3;
+	border-radius: 10px;
+	padding: 5px;
+	margin-bottom: 20px;
+	width: 40%;
+	margin: auto;
+}
+
+.botao-parceiros:hover {
+	background-color: #426b1f;
+	color: white;
+}
+
+.parceiros img {
+	margin: auto;
+	margin-top: 10px;
+}
+
+.btn-custom {
+	color: white;
+	background-color: #426b1f;
+}
+
+.card-empresa {
+	background-color: #e7ece3;
+	border-radius: 10px;
+	margin-right: 10px;
+}
+
+.form-group {
+	margin-left: 10px;
+	margin-right: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.form-control {
+	width: 100%;
+	text-align: left;
+}
+
+.card-cadastro {
+	padding-bottom: 10px;
+}
+
+iframe {
+	height: 500px;
+}
+
+@media only screen and (max-width: 480px) {
+	iframe {
+		height: 850px;
+	}
+
+	.main-card-sus {
+		margin: 20px auto;
+	}
+
+	.text-and-image-sus {
+		display: flex;
+		flex-direction: column;
+		margin: 0 auto;
+		gap: 20px;
+	}
+
+	.text-sus h1 {
+		margin: 1rem 0.3rem;
+		text-align: center;
+	}
+
+	.caixa-texto h2 {
+		font-size: 16px;
+	}
+
+	.text-sus p {
+		line-height: 18px;
+		margin-left: -30px;
+		margin-right: -30px;
+	}
+
+	.imagem-meio {
+		max-width: 100%;
+		height: auto;
+		object-fit: cover;
+		margin: auto;
+	}
+
+	.img-vector {
+		max-width: 100%;
+		height: auto;
+		object-fit: contain;
+		padding-top: 10px;
+		padding-left: 20px;
+		padding-bottom: 20px;
+	}
+
+	.card-empresa {
+		width: 100%;
+		height: auto;
+		margin: 10px;
+		box-sizing: border-box;
+		overflow: auto;
+	}
+
+	.form-group {
+		padding-top: 8px;
+		padding-bottom: 5px;
+	}
+}
+
+/* css página de ecoturismo */
+
+body,
+html {
+	margin: 0;
+	padding: 0;
+	overflow-x: hidden;
+}
+
+.main-card-eco {
+	margin: 20px auto;
+	width: 80%;
+	display: flex;
+	gap: 20px;
+	background-color: #eae9dd;
+	border-radius: 10px;
+	position: relative;
+}
+
+.text-and-image-eco {
+	display: flex;
+	align-items: center;
+	gap: 20px;
+}
+
+.text-eco {
+	margin-left: 10px;
+}
+
+.text-eco h1 {
+	font-size: 24px;
+	margin-bottom: 10px;
+}
+
+.image-eco img {
+	display: block;
+	width: 100%;
+	height: auto;
+}
+
+.carousel-container {
+	width: 100%;
+	overflow: hidden;
+	position: relative;
+}
+
+.carousel {
+	display: flex;
+	transition: transform 0.5s ease;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	overflow: auto;
+}
+
+.carousel-item {
+	min-width: 20%;
+	margin: 10px;
+	position: relative;
+	overflow: hidden;
+}
+
+.carousel-item img {
+	width: 100%;
+	display: block;
+	border-radius: 5px;
+	height: auto;
+	display: block;
+	object-fit: cover;
+}
+
+.carousel-control {
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	background-color: rgba(255, 255, 255, 0.5);
+	color: black;
+	border: none;
+	cursor: pointer;
+	padding: 10px;
+	z-index: 100;
+	border-radius: 10px;
+}
+
+.carousel-control.prev {
+	left: 10px;
+}
+
+.carousel-control.next {
+	right: 10px;
+}
+
+.card-opaco {
+	position: absolute;
+	bottom: 0;
+	background-color: rgba(255, 255, 255, 0.5);
+	color: white;
+	width: 100%;
+	padding: 10px;
+	box-sizing: border-box;
+	max-height: 40px;
+	overflow: hidden;
+}
+
+.card-opaco p {
+	font-size: 13px;
+	color: black;
+}
+
+.text-eco h2 {
+	font-size: 20px;
+	text-align: left;
+	margin-left: 20px;
+}
+
+.container-ecoturismo {
+	display: flex;
+	align-items: center;
+	justify-content: start;
+	background-color: transparent;
+	border: none;
+	margin: 10px;
+	margin-left: 10px;
+}
+
+.meu-botao {
+	background-color: #e7ece3;
+	color: #000000;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+	transition-duration: 0.4s;
+	margin-right: 20px;
+}
+
+.meu-botao:hover {
+	background-color: #426b1f;
+	color: white;
+}
+
+.eco-destinos h2 {
+	margin: 0;
+	margin-right: 30px;
+}
+
+@media only screen and (max-width: 480px) {
+	.text-and-image-eco {
+		display: flex;
+		flex-direction: column;
+		margin: 0 auto;
+		gap: 20px;
+	}
+
+	.text-eco h1 {
+		margin: 1rem;
+	}
+
+	.eco-destinos h2 {
+		font-size: 16px;
+	}
+
+	.meu-botao {
+		padding: 3px 7px;
+	}
+
+	.carousel-item {
+		min-width: 45%;
+		margin: 3px;
+		margin-bottom: 1rem;
+	}
+
+	.carousel-container {
+		margin-bottom: 1.6rem;
+	}
+}
+
+/* css página de destino */
+
+body,
+html {
+	margin: 0;
+	padding: 0;
+	overflow-x: hidden;
+}
+
+.main-card-destino {
+	margin: 20px auto;
+	width: 80%;
+	gap: 20px;
+	background-color: #eae9dd;
+	border-radius: 10px;
+}
+
+.text-and-image-destino {
+	display: flex;
+	align-items: center;
+	gap: 20px;
+}
+
+.text-destino {
+	margin-left: 10px;
+}
+
+.text-destino h1 {
+	font-size: 24px;
+	margin-bottom: 10px;
+}
+
+.image-destino img {
+	display: block;
+	width: 100%;
+	height: auto;
+	max-height: 100%;
+	border-radius: 10px;
+}
+
+.caixa-texto-dest ol {
+	list-style-type: decimal;
+	padding-left: 40px;
+}
+
+.caixa-texto-dest ol li {
+	text-align: left;
+	margin-bottom: 15px;
+}
+
+.caixa-texto-dest {
+	background-color: #f8eee5;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	padding: 10px;
+}
+
+.clima {
+	overflow: auto;
+	width: 50%;
+}
+
+.clima-map-container {
+	display: flex;
+	flex-direction: row;
+	padding: 1rem;
+}
+
+#wheather-container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.wheather-data {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 1rem;
+	width: 50%;
+	min-height: 150px;
+	text-align: left;
+	margin: 1rem 1rem 0 1rem;
+	border-radius: 10px;
+}
+
+.map-container {
+	width: 50%;
+}
+
+#map {
+	width: 350px;
+	height: 150px;
+	padding: 0;
+	margin: 0;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #323232;
+}
+
+@media (max-width: 678px) {
+	.clima-map-container {
+		display: flex;
+		flex-direction: column;
+		padding: 1rem;
+		margin-bottom: 2rem;
+	}
+
+	.clima {
+		width: 100%;
+	}
+
+	#wheather-container {
+		align-items: start;
+	}
+}
+
+
+/* css para pagina de parceiros */
+
+.image-parceiros {
+	height: 6rem;
+	width: 6rem;
+	object-fit: fill;
+	border-radius: 8px;
+	border: 2px solid #243812;
+	padding: 3px;
+}
+
+.titulos-parceiros {
+	display: flex;
+	gap: 2rem;
+	padding: 3px;
+	margin-top: .3rem;
+	margin-bottom: .5rem;
+}
+
+.parceiros h2 {
+	margin: 2rem;
+}
+
+.pesquisa-resultados {
+	margin-bottom: 1rem;
+}
+
+@media (max-width: 678px) {
+	.image-parceiros {
+		max-height: 4.5rem;
+		max-width: 4.5rem;
+	}
+}
+
+/* css para pagina de animais */
+
+.animais__info {
+	height: 276px;
+	display: flex;
+	align-items: center;
+	gap: 20px;
+	background-color: #eae9dd;
+	border-radius: 10px;
+	overflow: hidden;
+}
+
+.animais__info-detail {
+	height: auto;
+	padding: 15px 15px 15px 15px;
+}
+
+.animais__info-img>.imagem {
+	width: 600px;
+	height: 276px;
+}
+
+.animais__info-text {
+	margin: 2rem;
+	text-align: justify;
+}
+
+.animais__tundra-txt {
+	display: flex;
+	margin-bottom: 10px;
+	margin-top: 100px;
+}
+
+.animais-extincao-tundra {
+	position: relative;
+	display: flex;
+	width: fit-content;
+	border-radius: 10px;
+	overflow: hidden;
+}
+
+.card-opaco-tundra {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	padding: 5px;
+	display: flex;
+	width: 100%;
+	justify-content: center;
+	background-color: rgba(255, 255, 255, 0.5);
+}
+
+.container-tundra {
+	display: flex;
+	flex-direction: row;
+	gap: 15px;
+}
+
+.animais__taiga-txt {
+	margin-bottom: 10px;
+	margin-top: 100px;
+}
+
+.animais-extincao-taiga {
+	position: relative;
+	display: flex;
+	width: fit-content;
+	border-radius: 10px;
+	overflow: hidden;
+}
+
+.card-opaco-taiga {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	padding: 5px;
+	display: flex;
+	width: 100%;
+	justify-content: center;
+	background-color: rgba(255, 255, 255, 0.5);
+}
+
+.container-taiga {
+	display: flex;
+	flex-direction: row;
+	gap: 15px;
+}
+
+.animais__floresta-tropical-txt {
+	margin-bottom: 10px;
+	margin-top: 100px;
+}
+
+.animais-extincao-floresta-tropical {
+	position: relative;
+	display: flex;
+	width: fit-content;
+	border-radius: 10px;
+	overflow: hidden;
+}
+
+.card-opaco-floresta-tropical {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	padding: 5px;
+	display: flex;
+	width: 100%;
+	justify-content: center;
+	background-color: rgba(255, 255, 255, 0.5);
+}
+
+.container-floresta-tropical {
+	display: flex;
+	flex-direction: row;
+	gap: 15px;
+}
+
+.animais__floresta-temperada-txt {
+	margin-bottom: 10px;
+	margin-top: 100px;
+}
+
+.animais-extincao-floresta-temperada {
+	position: relative;
+	display: flex;
+	width: fit-content;
+	border-radius: 10px;
+	overflow: hidden;
+}
+
+.card-opaco-floresta-temperada {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	padding: 5px;
+	display: flex;
+	width: 100%;
+	justify-content: center;
+	background-color: rgba(255, 255, 255, 0.5);
+}
+
+.container-floresta-temperada {
+	display: flex;
+	flex-direction: row;
+	gap: 15px;
+}
+
+.animais__savana-txt {
+	margin-bottom: 10px;
+	margin-top: 100px;
+}
+
+.animais-extincao-savana {
+	position: relative;
+	display: flex;
+	width: fit-content;
+	border-radius: 10px;
+	overflow: hidden;
+}
+
+.card-opaco-savana {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	padding: 5px;
+	display: flex;
+	width: 100%;
+	justify-content: center;
+	background-color: rgba(255, 255, 255, 0.5);
+}
+
+.container-savana {
+	display: flex;
+	flex-direction: row;
+	gap: 15px;
+}
+
+.animais__deserto-txt {
+	margin-bottom: 10px;
+	margin-top: 100px;
+}
+
+.animais-extincao-deserto {
+	position: relative;
+	display: flex;
+	width: fit-content;
+	border-radius: 10px;
+	overflow: hidden;
+}
+
+.card-opaco-deserto {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	padding: 5px;
+	display: flex;
+	width: 100%;
+	justify-content: center;
+	background-color: rgba(255, 255, 255, 0.5);
+}
+
+.container-deserto {
+	display: flex;
+	flex-direction: row;
+	gap: 15px;
+}
+
+.animais__campo-txt {
+	margin-bottom: 10px;
+	margin-top: 100px;
+}
+
+.animais-extincao-campo {
+	position: relative;
+	display: flex;
+	width: fit-content;
+	border-radius: 10px;
+	overflow: hidden;
+}
+
+.card-opaco-campo {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	padding: 5px;
+	display: flex;
+	width: 100%;
+	justify-content: center;
+	background-color: rgba(255, 255, 255, 0.5);
+}
+
+.container-campo {
+	display: flex;
+	flex-direction: row;
+	gap: 15px;
+}
+
+.main {
+	margin: 20px auto;
+	width: 80%;
+	display: flex;
+	flex-direction: column;
+}
+
+@media only screen and (min-width: 640px) and (max-width: 1024px) {
+	.animais__info {
+		display: flex;
+		flex-direction: column;
+		margin: 0;
+		gap: 20px;
+		height: auto;
+	}
+
+	.animais__info-img {
+		margin: 0;
+		display: flex;
+		gap: 20px;
+	}
+
+	.animais__info-img>.imagem {
+		aspect-ratio: 16 / 9;
+		width: 600px;
+		height: 276px;
+	}
+
+	.animais__tundra-txt h2 {
+		font-size: 20 px;
+		display: flex;
+	}
+
+	.animais__tundra {
+		min-width: 45%;
+		margin: 3px;
+	}
+
+	.container-tundra {
+		min-width: 45%;
+		margin: 3px;
+		display: flex;
+		flex-direction: row;
+	}
+
+	.animais__taiga-txt h2 {
+		font-size: 20 px;
+		display: flex;
+	}
+
+	.animais__taiga {
+		min-width: 45%;
+		margin: 3px;
+	}
+
+	.container-taiga {
+		min-width: 45%;
+		margin: 3px;
+		display: flex;
+		flex-direction: row;
+	}
+
+	.animais__floresta-tropical-txt h2 {
+		font-size: 20 px;
+		display: flex;
+	}
+
+	.animais__floresta-tropical {
+		min-width: 45%;
+		margin: 3px;
+	}
+
+	.container-floresta-tropical {
+		min-width: 45%;
+		margin: 3px;
+		display: flex;
+		flex-direction: row;
+	}
+
+	.animais__floresta-temperada-txt h2 {
+		font-size: 20 px;
+		display: flex;
+	}
+
+	.animais__floresta-temperada {
+		min-width: 45%;
+		margin: 3px;
+	}
+
+	.container-floresta-temperada {
+		min-width: 45%;
+		margin: 3px;
+		display: flex;
+		flex-direction: row;
+	}
+
+	.animais__savana-txt h2 {
+		font-size: 20 px;
+		display: flex;
+	}
+
+	.animais__savana {
+		min-width: 45%;
+		margin: 3px;
+	}
+
+	.container-savana {
+		min-width: 45%;
+		margin: 3px;
+		display: flex;
+		flex-direction: row;
+	}
+
+	.animais__deserto-txt h2 {
+		font-size: 20 px;
+		display: flex;
+	}
+
+	.animais__deserto {
+		min-width: 45%;
+		margin: 3px;
+	}
+
+	.container-deserto {
+		min-width: 45%;
+		margin: 3px;
+		display: flex;
+		flex-direction: row;
+	}
+
+	.animais__campo-txt h2 {
+		font-size: 20 px;
+		display: flex;
+	}
+
+	.animais__campo {
+		min-width: 45%;
+		margin: 3px;
+	}
+
+	.container-campo {
+		min-width: 45%;
+		margin: 3px;
+		display: flex;
+		flex-direction: row;
+	}
+}
+
+@media (max-width: 640px) {
+	.animais__info {
+		display: flex;
+		flex-direction: column;
+		margin: 0;
+		gap: 20px;
+		height: auto;
+	}
+
+	.animais__info-img>.imagem {
+		aspect-ratio: 16 / 9;
+		width: 100%;
+		height: 276px;
+		display: flex;
+	}
+
+	.animais__tundra-txt h2 {
+		font-size: 16px;
+		display: flex;
+	}
+
+	.animais-extincao-tundra>img {
+		border-radius: 10px;
+	}
+
+	.animais-extincao-tundra {
+		overflow: initial;
+	}
+
+	.container-tundra {
+		overflow: scroll;
+	}
+
+	.animais__taiga-txt h2 {
+		font-size: 16px;
+		display: flex;
+	}
+
+	.animais-extincao-taiga>img {
+		border-radius: 10px;
+	}
+
+	.animais-extincao-taiga {
+		overflow: initial;
+	}
+
+	.container-taiga {
+		overflow: scroll;
+	}
+
+	.animais__floresta-tropical-txt h2 {
+		font-size: 16px;
+		display: flex;
+	}
+
+	.animais-extincao-floresta-tropical>img {
+		border-radius: 10px;
+	}
+
+	.animais-extincao-floresta-tropical {
+		overflow: initial;
+	}
+
+	.container-floresta-tropical {
+		overflow: scroll;
+	}
+
+	.animais__floresta-temperada-txt h2 {
+		font-size: 16px;
+		display: flex;
+	}
+
+	.animais-extincao-floresta-temperada>img {
+		border-radius: 10px;
+	}
+
+	.animais-extincao-floresta-temperada {
+		overflow: initial;
+	}
+
+	.container-floresta-temperada {
+		overflow: scroll;
+	}
+
+	.animais__savana-txt h2 {
+		font-size: 16px;
+		display: flex;
+	}
+
+	.animais-extincao-savana>img {
+		border-radius: 10px;
+	}
+
+	.animais-extincao-savana {
+		overflow: initial;
+	}
+
+	.container-savana {
+		overflow: scroll;
+	}
+
+	.animais__deserto-txt h2 {
+		font-size: 16px;
+		display: flex;
+	}
+
+	.animais-extincao-deserto>img {
+		border-radius: 10px;
+	}
+
+	.animais-extincao-deserto {
+		overflow: initial;
+	}
+
+	.container-deserto {
+		overflow: scroll;
+	}
+
+	.animais__campo-txt h2 {
+		font-size: 16px;
+		display: flex;
+	}
+
+	.animais-extincao-campo>img {
+		border-radius: 10px;
+	}
+
+	.animais-extincao-campo {
+		overflow: initial;
+	}
+
+	.container-campo {
+		overflow: scroll;
+	}
+}
+
+@media (max-width: 1280px) {
+	.animais__info {
+		display: flex;
+		flex-direction: column;
+		margin: 0;
+		gap: 20px;
+		height: auto;
+	}
+
+	.animais__info-img>.imagem {
+		width: 100%;
+		height: 400px;
+	}
+
+	.animais-extincao-tundra>img {
+		border-radius: 10px;
+	}
+
+	.animais-extincao-tundra {
+		overflow: initial;
+	}
+
+	.container-tundra {
+		overflow: scroll;
+	}
+
+	.animais-extincao-taiga>img {
+		border-radius: 10px;
+	}
+
+	.animais-extincao-taiga {
+		overflow: initial;
+	}
+
+	.container-taiga {
+		overflow: scroll;
+	}
+
+	.animais-extincao-floresta-tropical>img {
+		border-radius: 10px;
+	}
+
+	.animais-extincao-floresta-tropical {
+		overflow: initial;
+	}
+
+	.container-floresta-tropical {
+		overflow: scroll;
+	}
+
+	.animais-extincao-floresta-temperada>img {
+		border-radius: 10px;
+	}
+
+	.animais-extincao-floresta-temperada {
+		overflow: initial;
+	}
+
+	.container-floresta-temperada {
+		overflow: scroll;
+	}
+
+	.animais-extincao-savana>img {
+		border-radius: 10px;
+	}
+
+	.animais-extincao-savana {
+		overflow: initial;
+	}
+
+	.container-savana {
+		overflow: scroll;
+	}
+
+	.animais-extincao-deserto>img {
+		border-radius: 10px;
+	}
+
+	.animais-extincao-deserto {
+		overflow: initial;
+	}
+
+	.container-deserto {
+		overflow: scroll;
+	}
+
+	.animais-extincao-campo>img {
+		border-radius: 10px;
+	}
+
+	.animais-extincao-campo {
+		overflow: initial;
+	}
+
+	.container-campo {
+		overflow: scroll;
+	}
+}
+
+@media (max-width: 647px) {
+	.animais__info-img>.imagem {
+		width: 100%;
+		height: 276px;
+	}
+}
+
+/* css para pagina de biomas */
+
+.biomas {
+	margin-bottom: 4rem;
+}
+
+.biomas__info {
+	height: 276px;
+	display: flex;
+	gap: 20px;
+	background-color: #eae9dd;
+	border-radius: 10px;
+}
+
+.biomas__info-text {
+	margin: 2rem;
+	margin-top: 60px;
+}
+
+.main-biomas {
+	margin: 20px auto;
+	width: 80%;
+	display: flex;
+	flex-direction: column;
+}
+
+.biomas-txt {
+	margin-bottom: 10px;
+	margin-top: 100px;
+}
+
+.bioma-geral {
+	position: relative;
+	display: flex;
+	width: fit-content;
+	border-radius: 10px;
+	overflow: hidden;
+}
+
+.card-opaco-biomas {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	padding: 5px;
+	display: flex;
+	width: 100%;
+	justify-content: center;
+	background-color: rgba(255, 255, 255, 0.5);
+}
+
+.container-biomas {
+	display: flex;
+	flex-direction: row;
+	gap: 15px;
+}
+
+@media only screen and (min-width: 640px) and (max-width: 1024px) {
+	.biomas__info {
+		display: flex;
+		flex-direction: column;
+		margin: 0;
+		gap: 20px;
+		height: auto;
+	}
+
+	.biomas__info-img {
+		margin: 0;
+		display: flex;
+		gap: 20px;
+	}
+
+	.biomas__info-img>.imagem {
+		aspect-ratio: 16 / 9;
+		width: 600px;
+		height: 276px;
+	}
+
+	.biomas-txt h2 {
+		font-size: 20 px;
+		display: flex;
+	}
+
+	.biomas {
+		min-width: 45%;
+		margin: 3px;
+	}
+
+	.container-biomas {
+		min-width: 45%;
+		margin: 3px;
+		display: flex;
+		flex-direction: row;
+		margin-bottom: 70px;
+	}
+}
+
+@media (max-width: 640px) {
+	.biomas__info {
+		display: flex;
+		flex-direction: column;
+		margin: 0;
+		gap: 20px;
+		height: auto;
+	}
+
+	.biomas__info-img>.imagem {
+		aspect-ratio: 16 / 9;
+		width: 100%;
+		height: 276px;
+		display: flex;
+	}
+
+	.biomas-txt h2 {
+		font-size: 16px;
+		display: flex;
+	}
+
+	.bioma-geral>img {
+		border-radius: 10px;
+	}
+
+	.bioma-geral {
+		overflow: initial;
+	}
+
+	.container-biomas {
+		overflow: scroll;
+		margin-bottom: 70px;
+	}
+}
+
+@media (max-width: 1280px) {
+	.biomas__info {
+		display: flex;
+		flex-direction: column;
+		margin: 0;
+		gap: 20px;
+		height: auto;
+	}
+
+	.biomas__info-img>.imagem {
+		width: 100%;
+		height: 400px;
+	}
+
+	.bioma-geral>img {
+		border-radius: 10px;
+	}
+
+	.bioma-geral {
+		overflow: initial;
+	}
+
+	.container-biomas {
+		overflow: scroll;
+		margin-bottom: 70px;
+	}
+}
+
+@media (max-width: 647px) {
+	.biomas__info-img>.imagem {
+		width: 100%;
+		height: 276px;
+	}
+}
+
+/* css para Botão Sanduíche */
+
+.hamburger {
+	display: none;
+	position: relative;
+	z-index: 1000;
+}
+
+@media (max-width: 768px) {
+	.hamburger {
+		display: block;
+	}
+
+	.menu {
+		display: none;
+		margin: auto;
+		margin-top: 2rem;
+		background-color: #E7ECE3;
+		border: 1px solid #b4bdac;
+		border-radius: 8px;
+		z-index: 1000;
+	}
+
+	.menu ul {
+		list-style: none;
+		padding: 0;
+	}
+
+	.menu li {
+		margin-bottom: .5rem;
+	}
+
+	.menu a {
+		display: block;
+		padding: .4rem 10px;
+		text-decoration: none;
+	}
+
+	.menu.active {
+		display: block;
+	}
+}

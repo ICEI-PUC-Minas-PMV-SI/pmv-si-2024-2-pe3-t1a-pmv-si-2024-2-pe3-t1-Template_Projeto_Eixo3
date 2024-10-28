@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Sustentabilidade</title>
+    <link rel="stylesheet" href="../reset.css" />
+    <link rel="stylesheet" href="../styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&family=Poppins:wght@500&family=Raleway:wght@600&display=swap"
+      rel="stylesheet"
+    />
+
+    <script>
+      window.onload = function () {
+        const altura = document.documentElement.scrollHeight;
+        window.parent.postMessage(
+          {
+            frameHeight: altura,
+          },
+          "*"
+        );
+      };
+    </script>
+  </head>
+
+  <section class="bootstrap-section">
+    <div class="container-2">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="parceiros">
+            <a href="parceiros.html" target="_top"
+              ><button class="botao-parceiros">Veja nossos parceiros</button></a
+            >
+            <img
+              class="img-vector"
+              src="../img/sustentabilidade/Vector.png"
+              alt="vetor Img"
+            />
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="card-empresa">
+            <form>
+              <section class="card-cadastro">
+                <div class="form-group">
+                  <label for="formGroupExampleInput">Nome</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="formGroupExampleInput"
+                    placeholder="Seu nome"
+                  />
+                </div>
+                <div class="form-group">
+                  <label for="formGroupExampleInput2">Empresa</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="formGroupExampleInput2"
+                    placeholder="Sua empresa"
+                  />
+                </div>
+                <div class="form-group">
+                  <label for="formGroupExampleInput3">Área de atuação</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="formGroupExampleInput3"
+                    placeholder="Sua área"
+                  />
+                </div>
+                <div class="form-group">
+                  <label for="formGroupExampleInput4">Email</label>
+                  <input
+                    type="email"
+                    class="form-control"
+                    id="formGroupExampleInput4"
+                    aria-describedby="emailHelp"
+                    placeholder="Seu email"
+                  />
+                  <small id="emailHelp" class="form-text text-muted"
+                    >Nós não vamos repassar seu email para terceiros.</small
+                  >
+                </div>
+                <div id="modalConfirmacao" style="display: none">
+                  <p>
+                    Você concluiu o cadastro e entrou para nossa lista de
+                    parceiros!
+                  </p>
+                  <button id="btnPerfil">Completar perfil</button>
+                </div>
+                <button
+                  type="submit"
+                  class="btn btn-custom"
+                  id="botaoCadastrar"
+                >
+                  Cadastrar
+                </button>
+              </section>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</html>
