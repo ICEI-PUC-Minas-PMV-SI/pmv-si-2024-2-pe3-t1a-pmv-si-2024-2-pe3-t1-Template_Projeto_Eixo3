@@ -9,7 +9,7 @@
 ## 4.1 Personas e respectivos mapas de empatia
 
  1. [Arthor, o Biólogo](#arthor)
- 2. [Jairo, O Engenheiro ambiental](#jairo)
+ 2. [Jairo, o Engenheiro ambiental](#jairo)
 
 <div id='arthor'/>
  
