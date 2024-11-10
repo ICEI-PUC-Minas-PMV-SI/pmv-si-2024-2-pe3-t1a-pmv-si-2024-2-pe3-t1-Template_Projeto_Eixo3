@@ -45,6 +45,14 @@
  
 ## 4.2 Protótipos das Interfaces
 
+Páginas:
+ 1. [Login](#login)
+ 2. [Cadastro](#cadastro)
+ 3. [Queimadas e Desastres naturais](#queimadas-desastres)
+
+
+<div id='login'/>
+
 ### Página de login
 ![image](https://github.com/user-attachments/assets/bf01b7e1-bbb2-42d5-95c4-6f961cbb5eda)
 
@@ -78,7 +86,9 @@ Quanto às **regras de ouro de design**, Foram consideradas, principalmente:
 
 4. **Prevenção de erros e facilidade de correção**: A página foi projetada para minimizar erros: o sistema bloqueia e oferece mensagens de feedback para entradas inválidas, indicando o que precisa ser ajustado.
 
-### Página de sign-up
+<div id='cadastro'/>
+
+### Página de cadastro
 ![image](https://github.com/user-attachments/assets/5605b5bd-09da-4d5f-a8fb-7c0c2e142fb1)
 
 
@@ -106,4 +116,12 @@ Adicionalmente, outras boas práticas são aplicadas de novas formas, como:
 
 ![image](https://github.com/user-attachments/assets/7d160b11-9c89-40cb-8f80-195d894a69c8)
 
+<div id='queimadas-desastres'/>
 
+### Queimadas e desastres naturais
+
+No design de telas sobre queimadas e desastres naturais, a aplicação dos princípios gestalticos e das regras de ouro de design de interação é fundamental para criar uma interface intuitiva e eficiente. Os princípios gestalticos, como proximidade, semelhança e conexão, ajudam a organizar visualmente as informações de forma que o usuário as perceba como agrupamentos lógicos. Por exemplo, ao agrupar dados relacionados, como áreas de risco e alertas de incêndios, a interface facilita a associação e compreensão rápida das informações. O uso de cores e ícones semelhantes para alertas de incêndios e áreas de risco também torna a navegação mais intuitiva, permitindo ao usuário identificar padrões e reagir de forma mais eficiente.
+
+As regras de ouro de design, como perseguir a consistência, fornecer atalhos e feedbacks informativos, são igualmente essenciais para garantir uma experiência de usuário fluida. Manter uma consistência visual em toda a interface, como o uso uniforme de cores e ícones, permite que o usuário se oriente facilmente. Atalhos de navegação, como menus rápidos ou teclas de atalho, facilitam o acesso imediato a informações críticas, enquanto feedbacks claros e informativos, como mensagens de confirmação ou alerta de erros, ajudam a manter o usuário ciente do estado do sistema e das ações realizadas. A prevenção de erros e a possibilidade de corrigi-los rapidamente também são cruciais, especialmente quando lidamos com informações sensíveis sobre desastres, onde a precisão é vital.
+
+Além disso, fornecer controle de iniciativa do usuário é um aspecto fundamental para garantir que ele tenha liberdade para personalizar a interface de acordo com suas necessidades. Permitir que o usuário ajuste a visualização dos dados, como selecionar tipos específicos de alertas ou filtros no mapa, proporciona uma sensação de autonomia e controle, o que é especialmente importante em situações de emergência. Ao combinar esses princípios e regras, a interface se torna não apenas funcional, mas também acessível e eficaz, garantindo que o usuário tenha uma experiência positiva ao interagir com sistemas críticos, como os relacionados a queimadas e desastres naturais.
