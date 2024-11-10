@@ -29,27 +29,31 @@
 }
 
 .switch-link a {
-  color: #4CAF50; /* Verde amigável para links */
+  color: #4CAF50;
   text-decoration: none;
 }
 
 .switch-link a:hover {
-  color: #388E3C; /* Verde mais escuro ao passar o mouse */
+  color: #388E3C;
   text-decoration: underline;
 }
 
 .switch-link a:visited {
-  color: #2E7D32; /* Verde escuro para links visitados */
+  color: #2E7D32;
 }
 
 .form-group {
-  margin-bottom: 1.5rem;
+  margin-bottom: 1rem;
 }
 
 .form-group label {
   font-weight: 500;
+  display: block;
+  margin-bottom: 0.5rem;
 }
 
+
+input[type="text"],
 input[type="email"],
 input[type="password"] {
   border: 1px solid #dcdcdc;
@@ -59,6 +63,7 @@ input[type="password"] {
   font-size: 1rem;
 }
 
+input[type="text"]:focus,
 input[type="email"]:focus,
 input[type="password"]:focus {
   border-color: #426b1f;
@@ -83,9 +88,26 @@ input[type="password"]:focus {
 
 .error-message{
     color: red;
-    font-size: 0.9rem;
+    font-size: 0.7rem;
     margin: 0;
     padding: 0;
     text-align: left;
     opacity: 0;
 }
+
+.required-message,
+.confirmation-must-match-message,
+#mail-already-exists,
+#password-out-of-standarts-message {
+  color: red;
+  font-size: 0.7rem;
+  margin: 0;
+  padding: 0;
+  text-align: left;
+  opacity: 0;
+}
+
+.input-error {
+  border: 2px solid red;
+}
+
