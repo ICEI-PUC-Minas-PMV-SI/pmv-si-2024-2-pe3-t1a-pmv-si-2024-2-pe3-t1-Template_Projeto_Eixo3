@@ -21,6 +21,11 @@
 
 <div id='cleber'/>
 
+## Cleber, o Empresário
+
+![Cleber - o empresario](https://github.com/user-attachments/assets/79c7ebd1-11af-4341-9658-491f362fd09b)
+
+![cleber mapa empatia](https://github.com/user-attachments/assets/7e42c239-3cd1-457b-9659-3b924f789c92)
 
 <div id='tiago'/>
 
