@@ -1,4 +1,4 @@
-import { User } from '../resource-controllers'
+import { User } from '../js/resource-controllers'
 const loginForm = document.getElementById(/*nome do form de login*/)
 
 const signIn = async (email, password) => { //provavelmente o compilador vai reclamar pq n tem await na função ainda
