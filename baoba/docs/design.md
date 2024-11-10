@@ -2,7 +2,7 @@
 
 ## 4.1 Personas e respectivos mapas de empatia
 
-### Arthor, O Biólogo
+## Arthor, O Biólogo
 ![arthor img persona](https://github.com/user-attachments/assets/d83e3573-997d-4f77-9ee1-acb997bcc313)
 
 ![Mapa de Empatia - Arthor](https://github.com/user-attachments/assets/bbc6f4ba-0871-42dd-a83f-edeba1b5e5d6)
