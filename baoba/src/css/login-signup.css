@@ -1,0 +1,91 @@
+/* Centraliza a interface de login e ajusta estilo */
+.main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 90vh;
+  padding: 2rem 0;
+}
+
+.login-box {
+  background-color: #ffffff;
+  border: 1px solid #dcdcdc;
+  border-radius: 25px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  padding: 1rem;
+  height: 70%;
+  width: 90%;
+  max-width: 50%;
+  margin: 0 auto; 
+}
+
+.login-interface h1, .login-interface h2 {
+  text-align: center;
+}
+
+.switch-link {
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.switch-link a {
+  color: #4CAF50; /* Verde amigável para links */
+  text-decoration: none;
+}
+
+.switch-link a:hover {
+  color: #388E3C; /* Verde mais escuro ao passar o mouse */
+  text-decoration: underline;
+}
+
+.switch-link a:visited {
+  color: #2E7D32; /* Verde escuro para links visitados */
+}
+
+.form-group {
+  margin-bottom: 1.5rem;
+}
+
+.form-group label {
+  font-weight: 500;
+}
+
+input[type="email"],
+input[type="password"] {
+  border: 1px solid #dcdcdc;
+  border-radius: 5px;
+  padding: 0.8rem;
+  width: 100%;
+  font-size: 1rem;
+}
+
+input[type="email"]:focus,
+input[type="password"]:focus {
+  border-color: #426b1f;
+  outline: none;
+}
+
+.button {
+  background-color: #426b1f;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 0.8rem;
+  width: 100%;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #354f14;
+}
+
+.error-message{
+    color: red;
+    font-size: 0.9rem;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    opacity: 0;
+}
