@@ -2083,3 +2083,108 @@ html {
 		display: block;
 	}
 }
+
+
+.queimadas__container {
+	display: flex;
+	width: 100%;
+	height: 100vh;
+}
+
+.queimadas__container__info-text {
+	display: flex;
+	padding: 30px;
+	height: 65%;
+	width: 20%;
+	margin-bot: 40px
+}
+
+.queimadas__info-text {
+	background-color: #EAE9DD;
+	padding: 10px;
+}
+
+.queimadas__menu {
+	width: 80%;
+	padding: 30px;
+	height: fit-content;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.queimadas__img {
+	max-width: 100%;
+	box-sizing: border-box;
+	border-box: 
+}
+
+.queimadas__report__container {
+	background-color: #F8EEE5;
+	width: 60%;
+	height: 25%;
+	padding: 30px;
+	border-radius: 10px;
+	margin-top: 20px;
+	discplay: flex;
+	flex-direction: column;
+}
+
+.queimadas__inputs__container {
+	display: flex;
+	margin-top: 20px;
+	justify-content: space-between;
+}
+
+.queimadas__input {
+	width: 20%;
+}
+
+.queimadas__save__button {
+	background-color: #426b1f;
+	border: none;
+	border-radius: 10px;
+	color: #ffffff;
+	padding: 0.5rem;
+	margin-top: 1rem;
+	height: 35px;
+	width: 15%;
+	align-self: flex-end;
+}
+
+.d-flex {
+	display: flex;
+}
+
+.justify-content-end {
+	justify-content: flex-end;
+}
+
+.input-size {
+	box-sizing: border-box;
+	max-width: 100%;
+}
+
+.naturais__container {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	height: 100vh;
+	padding: 30px;
+}
+
+.naturais__container__inner {
+	width: 90%;
+	margin-bottom: 20px;
+}
+
+.naturais__report__container {
+	background-color: #F8EEE5;
+	width: 60%;
+	height: 25%;
+	padding: 0 30px ;
+	border-radius: 10px;
+	display: flex;
+	flex-direction: column;s
+}
