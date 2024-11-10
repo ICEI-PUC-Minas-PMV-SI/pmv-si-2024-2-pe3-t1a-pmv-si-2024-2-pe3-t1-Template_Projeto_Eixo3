@@ -8,7 +8,7 @@
 ![Mapa de Empatia - Arthor](https://github.com/user-attachments/assets/efa4d8ce-d5cf-48ef-94ab-209615f3b6cd)
 
 ## Tiago, O Turismólogo
-![Persona img Turismologo](https://github.com/user-attachments/assets/b7e42b07-35c2-4bbe-984b-38c6a8ce6519)
+![Persona img Turismologo](https://github.com/user-attachments/assets/0cfe7a4e-b477-476a-8328-20954bc3d6d2)
 
 ![Mapa de Empatia img](https://github.com/user-attachments/assets/c905d8b3-0d00-46dc-8c02-99a8e2c5f61e)
 
