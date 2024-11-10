@@ -32,9 +32,10 @@ Quanto às **regras de ouro de design**, Foram consideradas, principalmente:
 1. **Consistência**: A interface mantém uma consistência visual e funcional condizente com o padrão de páginas dessa natureza, o que facilita o reconhecimento dos elementos e cria uma experiência mais confiável.
 
 2. **Fornecimento de atalhos**: Existe um link para o cliente que deseja fazer o cadastro (sign-up) caso ainda não tenha uma conta, oferecendo um caminho rápido e acessível.
+3. 
 ![image](https://github.com/user-attachments/assets/95cb3985-7093-4308-b233-fa6c83353f3d)
 
-3. **Feedbacks informativos**: Quando o cliente insere informações inválidas, o sistema exibe uma mensagem clara e específica, sem atribuir culpa ao usuário, ajudando-o a corrigir o erro sem criar frustração.
+4. **Feedbacks informativos**: Quando o cliente insere informações inválidas, o sistema exibe uma mensagem clara e específica, sem atribuir culpa ao usuário, ajudando-o a corrigir o erro sem criar frustração.
    
 ![image](https://github.com/user-attachments/assets/dd760da2-0c2f-4693-a679-9cc8e28235e1)
 
@@ -52,6 +53,6 @@ Os mesmos princípios gestálticos e considerações das regras de ouro da pági
 COLOCAR IMG AQUI
 
 2. **Fornecimento de atalhos**: Existe um link para o cliente que deseja fazer o cadastro (sign-up) caso ainda não tenha uma conta, oferecendo um caminho rápido e acessível.
-![image](https://github.com/user-attachments/assets/95cb3985-7093-4308-b233-fa6c83353f3d)
+
 
 E, adicionalmente:
