@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/ab969400-26ac-4077-8881-545599c692cb)# 4. PROJETO DO DESIGN DE INTERAÇÃO
+# 4. PROJETO DO DESIGN DE INTERAÇÃO
 
 ## 4.1 Personas e respectivos mapas de empatia
 
@@ -6,6 +6,11 @@
 ![arthor img persona](https://github.com/user-attachments/assets/d83e3573-997d-4f77-9ee1-acb997bcc313)
 
 ![Mapa de Empatia - Arthor](https://github.com/user-attachments/assets/efa4d8ce-d5cf-48ef-94ab-209615f3b6cd)
+
+## Jairo, O Engenheiro ambiental
+![Persona - Jairo](https://github.com/user-attachments/assets/c10f064e-70d7-4171-8e0d-884a7881f4b6)
+
+![Jairo engenheiro ambiental - mapa de empatia](https://github.com/user-attachments/assets/b77bdfd2-5e3d-4388-aa5d-d398e815ccb9)
 
 ## 4.2 Protótipos das Interfaces
 
