@@ -70,6 +70,8 @@ Quanto às **regras de ouro de design**, Foram consideradas, principalmente:
 4. **Prevenção de erros e facilidade de correção**: A página foi projetada para minimizar erros: o sistema bloqueia e oferece mensagens de feedback para entradas inválidas, indicando o que precisa ser ajustado.
 
 ### Página de sign-up
+![image](https://github.com/user-attachments/assets/5605b5bd-09da-4d5f-a8fb-7c0c2e142fb1)
+
 
 Os mesmos princípios gestálticos e considerações das regras de ouro da página de login foram aplicados na página de sign-up, valendo destacar:
 
