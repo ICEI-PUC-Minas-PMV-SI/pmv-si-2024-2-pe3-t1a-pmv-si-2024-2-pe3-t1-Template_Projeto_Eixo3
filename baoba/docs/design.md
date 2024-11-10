@@ -9,14 +9,18 @@
 ## 4.1 Personas e respectivos mapas de empatia
 
  1. [Arthor, o Biólogo](#arthor)
- 2. [Jairo, o Engenheiro ambiental](#jairo)
- 3. [Tiago, o Turismólogo](#tiago)
+ 2. [Cleber, o Empresário](#cleber)
+ 3. [Jairo, o Engenheiro ambiental](#jairo)
+ 4. [Tiago, o Turismólogo](#tiago)
 <div id='arthor'/>
  
 ## Arthor, O Biólogo
 ![arthor img persona](https://github.com/user-attachments/assets/d83e3573-997d-4f77-9ee1-acb997bcc313)
 
 ![Mapa de Empatia - Arthor](https://github.com/user-attachments/assets/efa4d8ce-d5cf-48ef-94ab-209615f3b6cd)
+
+<div id='cleber'/>
+
 
 <div id='tiago'/>
 
