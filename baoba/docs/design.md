@@ -35,7 +35,9 @@ Quanto às **regras de ouro de design**, Foram consideradas, principalmente:
 ![image](https://github.com/user-attachments/assets/95cb3985-7093-4308-b233-fa6c83353f3d)
 
 3. **Feedbacks informativos**: Quando o cliente insere informações inválidas, o sistema exibe uma mensagem clara e específica, sem atribuir culpa ao usuário, ajudando-o a corrigir o erro sem criar frustração.
+   
 ![image](https://github.com/user-attachments/assets/dd760da2-0c2f-4693-a679-9cc8e28235e1)
+
 ![image](https://github.com/user-attachments/assets/afad0fb3-faad-4392-a4d2-80c2f47a0dab)
 
 4. **Prevenção de erros e facilidade de correção**: O layout da página foi projetado para minimizar erros, e o sistema oferece mensagens de feedback em caso de entradas inválidas, indicando o que precisa ser ajustado.
@@ -44,7 +46,7 @@ Quanto às **regras de ouro de design**, Foram consideradas, principalmente:
 
 ### Página de sign-up
 
-Para evitar redundância, os mesmos princípios gestálticos e considerações das regras de ouro da página de login foram usados para a página de sign-up, valendo destacar:
+Os mesmos princípios gestálticos e considerações das regras de ouro da página de login foram usados para a página de sign-up, valendo destacar:
 
 1.  **Feedbacks informativos**: Quando o cliente insere informações inválidas, o sistema exibe uma mensagem clara e específica, sem atribuir culpa ao usuário, ajudando-o a corrigir o erro sem criar frustração.
 COLOCAR IMG AQUI
