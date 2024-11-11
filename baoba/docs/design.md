@@ -58,6 +58,7 @@ Páginas:
  1. [Login](#login)
  2. [Cadastro](#cadastro)
  3. [Queimadas e Desastres naturais](#queimadas-desastres)
+ 4. [Cadastro de Animais](#cadastro-animais)
 
 
 <div id='login'/>
@@ -134,3 +135,43 @@ No design de telas sobre queimadas e desastres naturais, a aplicação dos princ
 As regras de ouro de design, como perseguir a consistência, fornecer atalhos e feedbacks informativos, são igualmente essenciais para garantir uma experiência de usuário fluida. Manter uma consistência visual em toda a interface, como o uso uniforme de cores e ícones, permite que o usuário se oriente facilmente. Atalhos de navegação, como menus rápidos ou teclas de atalho, facilitam o acesso imediato a informações críticas, enquanto feedbacks claros e informativos, como mensagens de confirmação ou alerta de erros, ajudam a manter o usuário ciente do estado do sistema e das ações realizadas. A prevenção de erros e a possibilidade de corrigi-los rapidamente também são cruciais, especialmente quando lidamos com informações sensíveis sobre desastres, onde a precisão é vital.
 
 Além disso, fornecer controle de iniciativa do usuário é um aspecto fundamental para garantir que ele tenha liberdade para personalizar a interface de acordo com suas necessidades. Permitir que o usuário ajuste a visualização dos dados, como selecionar tipos específicos de alertas ou filtros no mapa, proporciona uma sensação de autonomia e controle, o que é especialmente importante em situações de emergência. Ao combinar esses princípios e regras, a interface se torna não apenas funcional, mas também acessível e eficaz, garantindo que o usuário tenha uma experiência positiva ao interagir com sistemas críticos, como os relacionados a queimadas e desastres naturais.
+
+<div id='cadastro-animais'/>
+
+### Cadastro de Animais
+
+![Animais](https://github.com/user-attachments/assets/2a44661a-cffc-422a-af1d-624a0085b0ad)
+
+
+Para proporcionar uma boa experiência ao usuário utilizamos princípios gestálticos como base nas decisões de design da página informativa dos animais e na de cadastro dos mesmos. Entre elas podemos destacar por exemplo:
+
+A simetria entre os elementos cria uma melhor clareza visual e sensação mais limpa da página, onde as entidades semelhantes, seguindo também o princípio da similaridade, se encontram mais próximas entre si, gerando naturalmente uma coesão entre os grupos e compreensão da relação entre elementos.
+Isso também reforça os fundamentos da conectividade e da região comum.
+
+O menu principal fica no header do site, ele está implementado com um divisão com um contraste em relação ao resto, utilizando as cores selecionadas de acordo com tema e fornecendo atalhos úteis para o usuário. 
+Foram utilizadas cores mais frias e neutras, com alguns tons naturais e terrosos, diferentes verdes e marrons e pontos levemente mais quentes indo para tonalidades rosadas. São cores que remetem a natureza assim encaixam com o tema e clima tratado no site.
+
+Outro princípio aplicado foi o de hierarquia de componentes. O título é o elemento com maior peso na página, logo abaixo do header do site, ele é dividido em um bloco destacado por um fundo com mais contraste em relação ao resto, foi utilizada também uma fonte de tamanho maior, o que guia a visão do usuário primeiramente para ele e depois seguindo outros elementos da página, como a descrição e depois os próximos blocos dos animais, sendo direcionado a um fluxo mais coeso.
+
+
+A divisão da página por blocos, seja do título geral e descrição, e o dos animais divididos por cada bioma segue também o princípio da boa continuidade e alinhamento, reforçando assim a conexão interna dos elementos de cada grupo e a marcar o final de cada tema
+
+De acordo com o Contrast Checker da WebAIM o ratio de contraste entre os textos e os fundos passam nos teste, assegurando a facilidade de leitura e a acessibilidade para o usuário.
+
+![Cadastro](https://github.com/user-attachments/assets/8266a36b-3c7a-4229-bb34-de7e97f3da65)
+
+A tela de "Cadastro de Animais" também aplica os princípios gestálticos e regras de ouro do design de interfaces. O princípio de proximidade é evidente na disposição dos elementos de cada linha - imagem, nome da espécie, bioma, descrição e botões de edição e exclusão  - formando um conjunto que o administrador percebe como pertencente a um registro específico de animal, facilitando a compreensão visual. A continuidade é assegurada pelo alinhamento das colunas, permitindo um fluxo visual de cima para baixo e lateral, melhorando a legibilidade e navegação.
+
+
+O princípio de similaridade é utilizado, com botões de "Editar" e "Excluir" consistentes em cada linha, reforçando a percepção de agrupamento e facilitando a identificação das ações. A interface utiliza uma borda visível para delimitar a seção de "Cadastro de Animais", destacando-a do restante e permitindo foco nas informações relevantes. A consistência, uma das regras de ouro, é mantida com colunas e botões de ação uniformes, garantindo facilidade de uso contínuo.
+
+
+A presença dos botões “Editar” e “Excluir” indica a possibilidade de feedback informativo, essencial para confirmar ações ou evitar erros, com potenciais mensagens de confirmação ao excluir registros, contribuindo para a prevenção de erros. A organização visual reduz a carga de memória do usuário, permitindo foco na leitura e manipulação dos dados com praticidade.
+
+
+A página foi construída com visual mais simplificado por ser de acesso apenas dos administradores do site, mantendo as regras visual e com foco principal na funcionalidade, facilitando o acesso e manipulação das informações sobre cada animal.
+
+
+Esses princípios gestálticos aplicados ao design do site promovem uma experiência de uso agradável e intuitiva, ao organizar visualmente o conteúdo de maneira que ele seja facilmente compreendido e navegável. A simetria, similaridade e hierarquia guiam o olhar do usuário, facilitando a interpretação das informações e a localização dos elementos de interesse. O uso de cores adequadas ao tema e o contraste bem ajustado entre texto e fundo contribuem para a acessibilidade e mantêm a harmonia visual, criando uma interface acolhedora que reforça a conexão com a natureza, foco central do site.
+Dessa forma, o design não apenas transmite informações de maneira eficaz, mas também proporciona uma experiência visual atraente e acessível, resultando em um site melhor estruturado e funcional.
+
