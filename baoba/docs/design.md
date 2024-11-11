@@ -12,6 +12,7 @@
  2. [Cleber, o Empresário](#cleber)
  3. [Jairo, o Engenheiro ambiental](#jairo)
  4. [Tiago, o Turismólogo](#tiago)
+ 5. [Lídia, a Professora](#lidia)
 <div id='arthor'/>
  
 ## Arthor, O Biólogo
@@ -40,6 +41,14 @@
 ![Persona - Jairo](https://github.com/user-attachments/assets/c10f064e-70d7-4171-8e0d-884a7881f4b6)
 
 ![Jairo engenheiro ambiental - mapa de empatia](https://github.com/user-attachments/assets/b77bdfd2-5e3d-4388-aa5d-d398e815ccb9)
+
+## Lídia, a Professora
+![1731290283040-f6abc6fc-071b-4d90-8b74-834825eed001_1](https://github.com/user-attachments/assets/37cfa355-0bee-4ba8-9768-14749061e1a5)
+![1731290283040-f6abc6fc-071b-4d90-8b74-834825eed001_2](https://github.com/user-attachments/assets/e7405a88-50ab-447c-a8ed-8f9727b995c8)
+
+![“A segurança no ambiente de trabalho é prioridade ”](https://github.com/user-attachments/assets/b3832597-dc58-4110-bfe7-7565a6d57cf1)
+
+<div id='lidia'/>
 
 <div id='interface'/>
  
