@@ -2157,8 +2157,28 @@ html {
 	display: flex;
 }
 
+.d-none {
+	display: none;
+}
+
+.flex-column {
+	flex-direction: column;
+}
+
+.justify-content-between {
+	justify-content: space-between;
+}
+
 .justify-content-end {
 	justify-content: flex-end;
+}
+
+.mt-4 {
+	margin-top: 2rem;
+}
+
+.mb-2 {
+	margin-bottom: 0.5rem;
 }
 
 .input-size {
@@ -2187,6 +2207,54 @@ html {
 	border-radius: 10px;
 	display: flex;
 	flex-direction: column;s
+}
+
+.queimadas__list__button {
+	background-color: #426b1f;
+	border: none;
+	border-radius: 10px;
+	color: #ffffff;
+	padding: 0.25rem;
+	height: 25px;
+	width: 15%;
+	align-self: flex-end;
+}
+
+.list-items-disasters-container {
+	display: flex;
+	flex-direction: column;
+	width: 90%;
+	height: 60vh;
+	justify-content: space-around;
+	padding: 0 50px;
+}
+
+.list-items-disasters {
+	
+}
+
+.list-item-disaster {
+	display: flex;
+	justify-content: space-between;
+	width: 60%;
+	background-color: #EAE9DD;
+	padding: 10px;
+	margin-bottom: 10px;
+	border-radius: 10px;
+	border: 1px solid #426b1f;
+}
+
+.edit-disasters-container {
+	width: 60%;
+	background-color: #EAE9DD;
+	padding: 10px;
+	margin-bottom: 10px;
+	border-radius: 10px;
+	border: 1px solid #426b1f;
+}
+
+.edit-disasters-input {
+	width: 80px;
 }
 
 /* Cadastro de animais */

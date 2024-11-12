@@ -13,6 +13,7 @@
  3. [Jairo, o Engenheiro ambiental](#jairo)
  4. [Tiago, o Turismólogo](#tiago)
  5. [Lídia, a Professora](#lidia)
+ 6. [Gabriela, a Advogada](#gabriela)
 <div id='arthor'/>
  
 ## Arthor, O Biólogo
@@ -49,6 +50,14 @@
 ![1731290283040-f6abc6fc-071b-4d90-8b74-834825eed001_2](https://github.com/user-attachments/assets/e7405a88-50ab-447c-a8ed-8f9727b995c8)
 
 ![“A segurança no ambiente de trabalho é prioridade ”](https://github.com/user-attachments/assets/b3832597-dc58-4110-bfe7-7565a6d57cf1)
+
+<div id='gabriela'/>
+
+## Gabriela, a Advogada
+![1731295321936-8287f2a6-58af-45a3-bed7-d83cb613341e_1](https://github.com/user-attachments/assets/c8b8c2f0-1799-4777-b4bb-621a800b18eb)
+![1731295321936-8287f2a6-58af-45a3-bed7-d83cb613341e_2](https://github.com/user-attachments/assets/e8ccccaf-b489-4b2c-93e0-ac6824e52c1c)
+
+![Gabri](https://github.com/user-attachments/assets/96c1cae7-4a22-41f8-98e5-e2b49a9fbc22)
 
 <div id='interface'/>
  

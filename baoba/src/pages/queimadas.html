@@ -16,6 +16,8 @@
       href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&family=Poppins:wght@500&family=Raleway:wght@600&display=swap"
       rel="stylesheet"
     />
+
+    <script src="../js/queimadas/queimadas.js" ></script>
   </head>
 
   <body>
@@ -59,8 +61,10 @@
           <img style="width: 600px; height: 200px;" src="../img/queimadas/queimadas1.png" />
         </div>
         <div class="queimadas__report__container">
-          <div>
+          <div class="d-flex justify-content-between mb-2">
             <span>Reporte os focos de incêndio</span> 
+
+            <button class="queimadas__list__button" ><a  href="./list-fires-disasters.html">ver lista</a></button>
           </div>
           <div>
             <span>Lembre-se de comunicar os bombeiros, depois adicione as informações aqui!</span>
@@ -70,20 +74,22 @@
             <div class="queimadas__inputs__container">
               <div class="queimadas__input">
                 <label>cep</label>
-                  <input class="input-size" />
+                  <input class="input-size" id="fire-cep" />
               </div>
               <div class="queimadas__input">
                 <label>intensidade</label>
-                <input class="input-size" />
+                <input class="input-size" id="fire-intensity" />
               </div>
               <div class="queimadas__input">
                 <label>descrição</label>
-                <input class="input-size" />
+                <input class="input-size" id="fire-description" />
               </div>
+
+              <input style="display: none;" value="queimada" id="fire-type" >
             </div>
             
             <div class="d-flex justify-content-end">
-              <button type="submit" class="queimadas__save__button" >salvar</button>
+              <button type="submit" class="queimadas__save__button" onclick="createFire()" >salvar</button>
             </div>
           </form>
 

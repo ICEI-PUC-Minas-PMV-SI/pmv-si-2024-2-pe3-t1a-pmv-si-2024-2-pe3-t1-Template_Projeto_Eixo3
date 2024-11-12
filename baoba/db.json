@@ -653,39 +653,71 @@
   ],
   "pages": [
     {
-        "id":1,
-        "name":"Animais",
-        "page": "animais.html"
+      "id": 1,
+      "name": "Animais",
+      "page": "animais.html"
     },
     {
-        "id":2,
-        "name":"Atividades",
-        "page": "atividades.html"
+      "id": 2,
+      "name": "Atividades",
+      "page": "atividades.html"
     },
     {
-        "id":3,
-        "name":"Biomas",
-        "page": "biomas.html"
+      "id": 3,
+      "name": "Biomas",
+      "page": "biomas.html"
     },
     {
-        "id":4,
-        "name":"Ecoturismo",
-        "page": "ecoturismo.html"
+      "id": 4,
+      "name": "Ecoturismo",
+      "page": "ecoturismo.html"
     },
     {
-        "id":5,
-        "name":"Fórum",
-        "page": "forum.html"
+      "id": 5,
+      "name": "Fórum",
+      "page": "forum.html"
     },
     {
-        "id":6,
-        "name":"Sustentabilidade",
-        "page": "sustentabilidade.html"
+      "id": 6,
+      "name": "Sustentabilidade",
+      "page": "sustentabilidade.html"
     },
     {
-        "id":7,
-        "name":"Sobre",
-        "page": "sobre.html"
+      "id": 7,
+      "name": "Sobre",
+      "page": "sobre.html"
+    }
+  ],
+  "fires": [
+    {
+      "cep": "11111",
+      "intensity": "pouco",
+      "description": "area pequena",
+      "type": "queimada",
+      "id": "7a04"
+    },
+    {
+      "id": "a3c3",
+      "cep": "23412345",
+      "intensity": "medio",
+      "type": "queimada",
+      "description": "area grande"
+    }
+  ],
+  "disasters": [
+    {
+      "id": "591f",
+      "cep": "123123",
+      "intensity": "forte",
+      "description": "enchente",
+      "type": "desastre natural"
+    },
+    {
+      "id": "5167",
+      "cep": "4563433",
+      "intensity": "forte",
+      "description": "terremoto",
+      "type": "desastre natural"
     }
   ]
 }
