@@ -28,13 +28,29 @@
         <i class="fas fa-bars"></i>
       </button>
       <nav class="menu" id="navMenu">
-        <ul>
-          <li><a href="#">Início</a></li>
-          <li><a href="./pages/sobre.html">Sobre</a></li>
-          <li><a href="./pages/forum.html">Fórum</a></li>
-          <li><a href="./pages/queimadas.html">Queimadas</a></li>
+        <ul class="menu__items">
+            <li><a href="#">Início</a></li>
+            <li><a href="./pages/sobre.html">Sobre</a></li>
+            <li><a href="./pages/forum.html">Fórum</a></li>
+            <li><a href="./pages/queimadas.html">Queimadas</a></li>
         </ul>
-      </nav>
+        <div id="user-menu-item" class="menu__user"></div>
+    </nav>
+      <script>
+        // Referência ao item do menu
+        const userMenuItem = document.getElementById("user-menu-item");
+    
+        // Verificar se há um user_id armazenado no localStorage
+        const userId = localStorage.getItem("user_id");
+    
+        if (userId) {
+            // Quando o usuário está logado
+            userMenuItem.innerHTML = '<a href="./pages/meu-usuario.html">Meu Usuário</a>';
+        } else {
+            // Quando o usuário não está logado
+            userMenuItem.innerHTML = '<a href="./pages/login.html">Login</a>';
+        }
+    </script>
       
     </header>
     <main class="home__main">
