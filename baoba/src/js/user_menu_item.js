@@ -6,7 +6,7 @@ const asyncLoginText = async () => {
     if (userId) {
         userMenuItem.innerHTML = '<a href="./pages/meu-usuario.html">Meu Usuário</a>';
     } else {
-        userMenuItem.innerHTML = '<a href="./pages/login.html">Login</a>';
+        userMenuItem.innerHTML = '<a href="./pages/login.html">Entrar</a>';
     }
 }
 
